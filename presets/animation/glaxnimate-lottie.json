@@ -1,0 +1,9 @@
+{
+  "id": "glaxnimate-lottie",
+  "source": "glaxnimate .glax",
+  "export": "Lottie JSON (.json)",
+  "fps": 30,
+  "target_size": [1920, 1080],
+  "integrations": ["remotion", "inkscape", "kdenlive"],
+  "checks": ["valid JSON", "no external image dependencies unless cached", "loop end matches frame 0"]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "automated-video-rendering",
+  "name": "Automated video rendering",
+  "keywords": [
+    "automated render",
+    "render farm",
+    "headless render",
+    "automation",
+    "pipeline",
+    "scheduled render"
+  ],
+  "description": "Run unattended rendering pipelines with verification.",
+  "required": [
+    "blender",
+    "ffmpeg",
+    "remotion"
+  ],
+  "optional": [
+    "natron",
+    "kdenlive",
+    "python"
+  ],
+  "inputs": [
+    "blend",
+    "tsx",
+    "ntp",
+    "mlt",
+    "json"
+  ],
+  "outputs": [
+    "exr",
+    "mp4",
+    "mov"
+  ],
+  "dependencies": [
+    "gpu-or-cpu",
+    "python3",
+    "nodejs-lts"
+  ],
+  "presets": [
+    "presets/rendering",
+    "presets/export"
+  ],
+  "templates": [
+    "templates/blender",
+    "templates/remotion"
+  ],
+  "workflow": "Validate scene -> render frames headlessly -> encode -> probe -> checksum -> archive.",
+  "validation": "Non-zero exit fails the job; verify frame count and ffprobe stream metadata."
+}

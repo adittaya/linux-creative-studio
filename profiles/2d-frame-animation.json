@@ -1,0 +1,46 @@
+{
+  "id": "2d-frame-animation",
+  "name": "2D frame-by-frame animation",
+  "keywords": [
+    "frame",
+    "flipbook",
+    "2d animation",
+    "onion",
+    "character animation",
+    "animate"
+  ],
+  "description": "Draw and animate 2D characters frame by frame.",
+  "required": [
+    "krita-animation",
+    "pencil2d"
+  ],
+  "optional": [
+    "tahoma2d",
+    "opentoonz",
+    "blender-grease-pencil"
+  ],
+  "inputs": [
+    "png",
+    "kra",
+    "ora",
+    "storyboard"
+  ],
+  "outputs": [
+    "mp4",
+    "gif",
+    "png-sequence"
+  ],
+  "dependencies": [
+    "ffmpeg",
+    "fonts"
+  ],
+  "presets": [
+    "presets/animation",
+    "presets/export"
+  ],
+  "templates": [
+    "templates/krita"
+  ],
+  "workflow": "Storyboard -> onion-skin key poses -> inbetween -> timing pass -> render image sequence -> encode with ffmpeg.",
+  "validation": "Inspect frame sequence count and encode result with ffprobe."
+}

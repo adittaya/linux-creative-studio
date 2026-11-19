@@ -1,0 +1,7 @@
+distro: ubuntu
+method_priority: [distribution-package, official-appimage, flatpak, official-portable-archive]
+notes:
+  - "Use the exact LTS release codename; do not mix releases."
+  - "Snap-only packages are not part of this offline bundle."
+  - "Verify AppImage glibc baseline against the LTS in use."
+artifact_root: "offline-repo/apt/ubuntu"

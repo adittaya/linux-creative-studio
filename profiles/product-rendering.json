@@ -1,0 +1,48 @@
+{
+  "id": "product-rendering",
+  "name": "Product rendering",
+  "keywords": [
+    "product",
+    "render",
+    "cycles",
+    "eevee",
+    "studio lighting",
+    "3d render"
+  ],
+  "description": "Produce high-quality still or turntable renders of products.",
+  "required": [
+    "blender"
+  ],
+  "optional": [
+    "open-image-denoise",
+    "gimp",
+    "ffmpeg",
+    "remotion",
+    "audacity"
+  ],
+  "inputs": [
+    "blend",
+    "obj",
+    "fbx",
+    "glb",
+    "hdri"
+  ],
+  "outputs": [
+    "exr",
+    "png",
+    "mp4"
+  ],
+  "dependencies": [
+    "hdris",
+    "materials",
+    "gpu-or-cpu"
+  ],
+  "presets": [
+    "presets/rendering"
+  ],
+  "templates": [
+    "templates/blender"
+  ],
+  "workflow": "Import/clean asset -> materials -> lighting -> camera -> test render -> final EXR -> grade/encode.",
+  "validation": "Verify output resolution, color space and noise level; inspect EXR layers."
+}

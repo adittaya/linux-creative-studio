@@ -1,0 +1,41 @@
+{
+  "id": "character-rigging",
+  "name": "Character rigging and animation",
+  "keywords": [
+    "rigging",
+    "character",
+    "armature",
+    "bones",
+    "animation"
+  ],
+  "description": "Rig and animate 3D characters.",
+  "required": [
+    "blender"
+  ],
+  "optional": [
+    "krita-animation"
+  ],
+  "inputs": [
+    "blend",
+    "fbx",
+    "glb"
+  ],
+  "outputs": [
+    "blend",
+    "fbx",
+    "glb",
+    "mp4"
+  ],
+  "dependencies": [
+    "opengl"
+  ],
+  "presets": [
+    "presets/animation",
+    "presets/rendering"
+  ],
+  "templates": [
+    "templates/blender"
+  ],
+  "workflow": "Clean topology -> place armature -> skin weights -> controls -> animation -> playblast.",
+  "validation": "Scrub full action range; check for deformation artifacts and export rig."
+}

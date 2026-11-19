@@ -1,0 +1,207 @@
+[2026-11-19T05:33:36Z] download plan: 75 package(s); dry-run=1
+[2026-11-19T05:33:36Z] dry-run: curl -fL --retry 3 'https://download.blender.org/release/Blender5.3/blender-5.3.0-linux-x64.tar.xz' -o '/workspaces/codespaces-blank/work/Linux-Creative-Studio/cache/downloads/blender-5.3.0-linux-x64.tar.xz.part' && verify SHA-256 && move to '/workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/portable-archives/blender-5.3.0-linux-x64.tar.xz'
+[2026-11-19T05:33:36Z] downloaded and verified 1 artifact(s)
+[2026-11-19T05:33:36Z] download plan: 75 package(s); dry-run=1
+[2026-11-19T05:33:36Z]   gimp — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   krita — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   inkscape — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   scribus — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   darktable — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   rawtherapee — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   digikam — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   mypaint — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   pinta — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   fontforge — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   imagemagick — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   gmic — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   libvips — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   exiftool — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   tahoma2d — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   opentoonz — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   synfig — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   glaxnimate — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   pencil2d — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   krita-animation — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   blender — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   freecad — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   meshlab — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   openscad — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   material-maker — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   meshroom — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   assimp — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   open-image-denoise — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   luxcorerender — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   natron — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   blender-compositor — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   vfx-utilities — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   kdenlive — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   shotcut — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   openshot — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   flowblade — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   avidemux — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   losslesscut — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   handbrake — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   shutter-encoder — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   mlt — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   davinci-resolve — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   opencolorio — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   aces — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   argyllcms — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   displaycal — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   luts — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   blender-color-management — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   remotion — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   nodejs — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   react — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   typescript — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   chromium — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   lottie — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   svg-tools — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   audacity — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   ardour — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   reaper — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   lmms — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   carla — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   audio-plugins — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   pipewire — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   jack — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   alsa — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   ffmpeg — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   ffprobe — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   gstreamer — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   mediainfo — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   mkvtoolnix — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   vlc — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   mpv — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   python — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   git — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   jq — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z]   archives — no pinned artifact manifest supplied; nothing downloaded
+[2026-11-19T05:33:36Z] To fetch artifacts, pass --artifacts-manifest FILE (JSON list of {id,url,sha256,kind,filename}).
+[2026-11-19T05:33:36Z] install plan: 75 package(s); dry-run=1 confirm=0
+[2026-11-19T05:33:36Z] SKIP gimp — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:36Z] SKIP krita — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:36Z] SKIP inkscape — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:36Z] SKIP scribus — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:36Z] SKIP darktable — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:36Z] SKIP rawtherapee — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP digikam — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP mypaint — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP pinta — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP fontforge — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP imagemagick — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP gmic — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP libvips — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP exiftool — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP tahoma2d — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP opentoonz — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP synfig — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP glaxnimate — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP pencil2d — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP krita-animation — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP blender — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP freecad — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP meshlab — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP openscad — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP material-maker — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP meshroom — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP assimp — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP open-image-denoise — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP luxcorerender — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP natron — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP blender-compositor — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP vfx-utilities — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP kdenlive — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP shotcut — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP openshot — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:37Z] SKIP flowblade — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP avidemux — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP losslesscut — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP handbrake — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP shutter-encoder — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP mlt — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP davinci-resolve — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP opencolorio — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP aces — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP argyllcms — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP displaycal — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP luts — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP blender-color-management — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP remotion — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP nodejs — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP react — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP typescript — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP chromium — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP lottie — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP svg-tools — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP audacity — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP ardour — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP reaper — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP lmms — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP carla — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP audio-plugins — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP pipewire — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP jack — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP alsa — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP ffmpeg — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:38Z] SKIP ffprobe — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP gstreamer — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP mediainfo — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP mkvtoolnix — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP vlc — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP mpv — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP python — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP git — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP jq — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] SKIP archives — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:33:39Z] summary: installed=0 skipped=75
+[2026-11-19T05:33:39Z] no studio-local active/ directory for gimp
+[2026-11-19T05:33:39Z] uninstall complete for gimp (registry metadata retained by design)
+[2026-11-19T05:33:39Z] repair: regenerating scaffold/metadata (assets, projects and active/ are never modified)
+[2026-11-19T05:33:39Z] repair complete; doctor problems: 0
+[2026-11-19T05:34:24Z] download plan: 1 package(s); dry-run=1
+[2026-11-19T05:34:24Z] dry-run: curl -fL --retry 3 'https://download.blender.org/release/Blender5.3/blender-5.3.0-linux-x64.tar.xz' -o '/workspaces/codespaces-blank/work/Linux-Creative-Studio/cache/downloads/blender-5.3.0-linux-x64.tar.xz.part' && verify SHA-256 && move to '/workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/portable-archives/blender-5.3.0-linux-x64.tar.xz'
+[2026-11-19T05:34:24Z] install plan: 9 package(s); dry-run=1 confirm=0
+[2026-11-19T05:34:24Z] SKIP blender — no cached verified artifact. Prepare with scripts/download-packages.sh
+[2026-11-19T05:34:24Z] repair: regenerating scaffold/metadata (assets, projects and active/ are never modified)
+[2026-11-19T05:34:24Z] dry-run: python3 scripts/_generate.py
+[2026-11-19T05:34:24Z] update blender
+[2026-11-19T05:34:24Z] 1. Research upstream release notes and license changes (metadata/sources.json).
+[2026-11-19T05:34:24Z] 2. Download ONLY from official HTTPS source with pinned SHA-256: scripts/download-packages.sh --artifacts-manifest ...
+[2026-11-19T05:34:24Z] 3. Verify checksum + signature where available; record provenance.
+[2026-11-19T05:34:24Z] 4. Install into a new active/ directory, keep the previous one for rollback.
+[2026-11-19T05:34:24Z] 5. Run: studioctl verify --id blender --smoke && tests/...
+[2026-11-19T05:34:24Z] 6. Update metadata, CHANGELOG.md and offline-repo/checksums/SHA256SUMS.
+[2026-11-19T05:34:24Z] dry-run: no changes
+[2026-11-19T05:35:00Z] download plan: 1 package(s); dry-run=1
+[2026-11-19T05:35:00Z] dry-run: curl -fL --retry 3 'https://download.blender.org/release/Blender5.3/blender-5.3.0-linux-x64.tar.xz' -o '/workspaces/codespaces-blank/work/Linux-Creative-Studio/cache/downloads/blender-5.3.0-linux-x64.tar.xz.part' && verify SHA-256 && move to '/workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/portable-archives/blender-5.3.0-linux-x64.tar.xz'
+[2026-11-19T05:35:00Z] dry-run: 1 artifact(s) would be downloaded and verified
+[2026-11-19T05:59:22Z] indexed 1191 .deb artifacts; wrote local-sources.list
+[2026-11-19T05:59:22Z] repository index step finished
+[2026-11-19T05:59:23Z] offline install plan: 3 package(s); dry-run=1 confirm-system=0
+[2026-11-19T05:59:23Z] SKIP apt packages (gimp blender) — pass --confirm-system-change
+[2026-11-19T05:59:23Z] dry-run: npm ci --offline --cache /workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/npm-cache (in /workspaces/codespaces-blank/work/Linux-Creative-Studio/templates/remotion/starter)
+[2026-11-19T05:59:23Z] summary: installed/planned=1 skipped=2
+[2026-11-19T05:59:23Z] offline install plan: 3 package(s); dry-run=1 confirm-system=1
+[2026-11-19T05:59:23Z] dry-run: apt-get -o Dir::Etc::sourcelist=/workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/apt/local-sources.list -o Dir::Etc::sourceparts=- -o APT::Get::List-Cleanup=0 -o Acquire::AllowInsecureRepositories=true -o APT::Get::AllowUnauthenticated=true install -y --no-install-recommends gimp blender
+[2026-11-19T05:59:23Z] dry-run: npm ci --offline --cache /workspaces/codespaces-blank/work/Linux-Creative-Studio/offline-repo/npm-cache (in /workspaces/codespaces-blank/work/Linux-Creative-Studio/templates/remotion/starter)
+[2026-11-19T05:59:23Z] summary: installed/planned=3 skipped=0
+[2026-11-19T06:05:45Z] indexed 1615 .deb artifacts; wrote local-sources.list
+[2026-11-19T06:05:45Z] repository index step finished
+[2026-11-19T06:06:43Z] repair: regenerating scaffold/metadata (assets, projects and active/ are never modified)
+[2026-11-19T06:06:52Z] indexed 1615 .deb artifacts; wrote local-sources.list
+[2026-11-19T06:06:52Z] repository index step finished
+[2026-11-19T06:06:53Z] repair complete; doctor problems: 0
+[2026-11-19T06:10:04Z] indexed 1615 .deb artifacts; wrote local-sources.list
+[2026-11-19T06:10:04Z] repository index step finished
+[2026-11-19T06:28:15Z] ERROR: less than 5 GB free on studio filesystem
+[2026-11-19T06:28:24Z] ERROR: less than 5 GB free on studio filesystem
+[2026-11-19T06:28:36Z] offline install plan: 1 package(s); dry-run=0 confirm-system=0
+[2026-11-19T06:28:36Z] SKIP apt packages (blender) — pass --confirm-system-change
+[2026-11-19T06:28:36Z] summary: installed/planned=0 skipped=1
+[2026-11-19T06:28:36Z] WARN: nothing installed; artifacts and confirmation are required
+[2026-11-19T06:28:37Z] ERROR: less than 5 GB free on studio filesystem
+[2026-11-19T06:28:50Z] offline install plan: 1 package(s); dry-run=0 confirm-system=0
+[2026-11-19T06:29:30Z] prepared portable Blender wrapper and local X11 libraries
+[2026-11-19T06:29:30Z] extracted blender -> /workspaces/codespaces-blank/work/Linux-Creative-Studio/packages/3d/blender/active
+[2026-11-19T06:29:30Z] summary: installed/planned=1 skipped=0

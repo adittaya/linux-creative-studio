@@ -1,0 +1,51 @@
+{
+  "id": "color-grading",
+  "name": "Color grading",
+  "keywords": [
+    "color grade",
+    "colour grade",
+    "grading",
+    "lut",
+    "aces",
+    "hdr",
+    "color"
+  ],
+  "description": "Grade footage with scene-referred color management.",
+  "required": [
+    "kdenlive",
+    "opencolorio",
+    "aces"
+  ],
+  "optional": [
+    "shotcut",
+    "blender-color-management",
+    "davinci-resolve",
+    "luts"
+  ],
+  "inputs": [
+    "mp4",
+    "mov",
+    "exr",
+    "dpx",
+    "braw"
+  ],
+  "outputs": [
+    "mp4",
+    "mov",
+    "exr",
+    "cube"
+  ],
+  "dependencies": [
+    "icc-profiles",
+    "display-calibration",
+    "luts"
+  ],
+  "presets": [
+    "presets/color"
+  ],
+  "templates": [
+    "templates/general"
+  ],
+  "workflow": "Set input color space -> balancing -> look LUT/transform -> HDR or SDR deliverables -> verify scopes.",
+  "validation": "Confirm transform names in OCIO config and measure output color space/gamut."
+}

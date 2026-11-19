@@ -1,0 +1,53 @@
+{
+  "id": "programmatic-video",
+  "name": "Programmatic video generation",
+  "keywords": [
+    "programmatic",
+    "personalized video",
+    "batch video",
+    "remotion",
+    "react video",
+    "automated video",
+    "hundreds of videos"
+  ],
+  "description": "Generate many parameterized videos from code and data.",
+  "required": [
+    "remotion",
+    "nodejs",
+    "react",
+    "typescript",
+    "chromium",
+    "ffmpeg"
+  ],
+  "optional": [
+    "glaxnimate",
+    "lottie",
+    "blender"
+  ],
+  "inputs": [
+    "tsx",
+    "json",
+    "csv",
+    "png",
+    "woff2"
+  ],
+  "outputs": [
+    "mp4",
+    "webm",
+    "gif",
+    "png-sequence"
+  ],
+  "dependencies": [
+    "npm-cache",
+    "chromium-headless-shell",
+    "ffmpeg"
+  ],
+  "presets": [
+    "presets/export"
+  ],
+  "templates": [
+    "templates/remotion"
+  ],
+  "workflow": "Author composition -> pin deps with lockfile -> render with concurrency -> probe outputs -> package results.",
+  "validation": "Render a 1-second sample offline, run ffprobe, then render the batch with checksums."
+}

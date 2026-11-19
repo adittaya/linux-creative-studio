@@ -1,0 +1,17 @@
+{
+  "test": "offline-suite",
+  "status": "partially-verified",
+  "functional_results": {
+    "test-codecs-ffmpeg.json": "passed",
+    "test-installation-image-export.json": "skipped",
+    "test-rendering-blender.json": "passed",
+    "test-rendering-remotion.json": "passed"
+  },
+  "offline_summary": {
+    "available-locally": 52,
+    "artifact-not-cached": 13,
+    "facade": 4,
+    "restricted": 6
+  },
+  "claim": "No offline guarantee until every required test passes on an isolated host."
+}

@@ -1,0 +1,41 @@
+schema_version: "1.0"
+paths:
+  packages: "packages"
+  runtimes:
+    shared: "runtimes/shared"
+    python: "runtimes/python"
+    nodejs: "runtimes/nodejs"
+    browsers: "runtimes/browsers"
+    codecs: "runtimes/codecs"
+    libraries: "runtimes/libraries"
+  plugins: "plugins"
+  assets: "assets"
+  templates: "templates"
+  presets: "presets"
+  profiles: "profiles"
+  offline_repo:
+    apt_debian: "offline-repo/apt/debian"
+    apt_ubuntu: "offline-repo/apt/ubuntu"
+    flatpak: "offline-repo/flatpak/repository"
+    appimages: "offline-repo/appimages"
+    deb: "offline-repo/deb-packages"
+    portable: "offline-repo/portable-archives"
+    python_wheels: "offline-repo/python-wheels"
+    npm_cache: "offline-repo/npm-cache"
+    source: "offline-repo/source-archives"
+    checksums: "offline-repo/checksums/SHA256SUMS"
+  cache:
+    downloads: "cache/downloads"
+    build: "cache/build-cache"
+    dependency: "cache/dependency-cache"
+  workspaces:
+    temporary: "workspaces/temporary"
+    renders: "workspaces/renders"
+    exports: "workspaces/exports"
+    previews: "workspaces/previews"
+    interchange: "workspaces/interchange"
+  logs: "logs"
+rules:
+  never_write_outside_root: true
+  user_config_isolation: true
+  preserve_user_presets: true

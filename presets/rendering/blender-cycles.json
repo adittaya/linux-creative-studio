@@ -1,0 +1,11 @@
+{
+  "id": "blender-cycles-draft",
+  "engine": "CYCLES",
+  "samples": 32,
+  "denoise": true,
+  "resolution": [1920, 1080],
+  "format": "EXR",
+  "color_depth": "16",
+  "view_transform": "AgX",
+  "device": "CPU (override to GPU only after detect-hardware.sh confirms support)"
+}

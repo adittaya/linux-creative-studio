@@ -1,0 +1,48 @@
+{
+  "id": "vfx-compositing",
+  "name": "VFX compositing",
+  "keywords": [
+    "compositing",
+    "vfx",
+    "keying",
+    "rotoscoping",
+    "tracking",
+    "masking",
+    "node"
+  ],
+  "description": "Combine layers, key, track and rotoscope shots.",
+  "required": [
+    "natron",
+    "blender-compositor"
+  ],
+  "optional": [
+    "gimp",
+    "krita",
+    "blender"
+  ],
+  "inputs": [
+    "exr",
+    "dpx",
+    "png",
+    "mov",
+    "abc"
+  ],
+  "outputs": [
+    "exr-sequence",
+    "mov",
+    "mp4"
+  ],
+  "dependencies": [
+    "opencolorio",
+    "ffmpeg"
+  ],
+  "presets": [
+    "presets/color",
+    "presets/rendering"
+  ],
+  "templates": [
+    "templates/natron"
+  ],
+  "workflow": "Ingest plate -> track/key/roto -> node graph -> grade -> render EXR sequence -> deliverable encode.",
+  "validation": "Inspect EXR channels and compare composite against reference frame."
+}

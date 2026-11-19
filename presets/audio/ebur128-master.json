@@ -1,0 +1,9 @@
+{
+  "id": "ebur128-master",
+  "target_i": -16,
+  "target_lra": 11,
+  "target_tp": -1.5,
+  "ffmpeg_loudnorm": "loudnorm=I=-16:LRA=11:TP=-1.5",
+  "measure": "ffmpeg -i INPUT -filter_complex ebur128=peak=true -f null -",
+  "applications": ["audacity", "ardour", "ffmpeg"]
+}

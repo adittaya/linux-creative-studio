@@ -1,0 +1,51 @@
+{
+  "id": "multitrack-video-editing",
+  "name": "Multitrack video editing",
+  "keywords": [
+    "video edit",
+    "edit video",
+    "timeline",
+    "multitrack",
+    "cut video",
+    "footage"
+  ],
+  "description": "Assemble and cut multitrack video with audio.",
+  "required": [
+    "kdenlive",
+    "shotcut"
+  ],
+  "optional": [
+    "flowblade",
+    "openshot",
+    "avidemux",
+    "losslesscut"
+  ],
+  "inputs": [
+    "mp4",
+    "mov",
+    "mkv",
+    "wav",
+    "png"
+  ],
+  "outputs": [
+    "mp4",
+    "mov",
+    "mkv",
+    "mlt"
+  ],
+  "dependencies": [
+    "mlt",
+    "ffmpeg",
+    "codecs",
+    "fonts"
+  ],
+  "presets": [
+    "presets/video",
+    "presets/export"
+  ],
+  "templates": [
+    "templates/kdenlive"
+  ],
+  "workflow": "Ingest/proxy -> rough cut -> sync audio -> titles/transitions -> export preset -> QC with ffprobe.",
+  "validation": "Check duration, frame rate, audio channel layout and missing frames."
+}

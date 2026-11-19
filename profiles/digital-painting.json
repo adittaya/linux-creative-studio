@@ -1,0 +1,45 @@
+{
+  "id": "digital-painting",
+  "name": "Digital painting",
+  "keywords": [
+    "paint",
+    "illustration",
+    "draw",
+    "sketch",
+    "brush"
+  ],
+  "description": "Create illustrations and painted concept art.",
+  "required": [
+    "krita"
+  ],
+  "optional": [
+    "mypaint",
+    "gimp",
+    "blender-grease-pencil"
+  ],
+  "inputs": [
+    "sketch",
+    "png",
+    "kra",
+    "ora"
+  ],
+  "outputs": [
+    "kra",
+    "png",
+    "psd",
+    "tif"
+  ],
+  "dependencies": [
+    "brushes",
+    "color-palettes",
+    "fonts"
+  ],
+  "presets": [
+    "presets/color"
+  ],
+  "templates": [
+    "templates/krita"
+  ],
+  "workflow": "Sketch -> value study -> paint layers -> texture overlay -> final color grade -> export.",
+  "validation": "Open exported PNG/KRA and confirm layer count, alpha and resolution."
+}
