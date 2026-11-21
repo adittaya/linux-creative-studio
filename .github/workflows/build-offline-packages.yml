@@ -1,0 +1,71 @@
+name: Build Offline Packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to create or update"
+        required: true
+        type: string
+      repo:
+        description: "GitHub repository in OWNER/REPO form"
+        required: false
+        default: ${{ github.repository }}
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Prepare directories
+        run: |
+          mkdir -p work/pkg bundles release-assets release docs
+
+      - name: Build/acquire package payloads
+        run: |
+          # Placeholder: replace with the real acquisition/build command for your environment.
+          # Example:
+          # ./scripts/acquire_offline_packages.sh --work-dir work --bundles-dir bundles
+          echo "TODO: populate work/pkg and bundles before rebuilding release artifacts"
+
+      - name: Rebuild release artifacts and manifests
+        run: |
+          python3 scripts/rebuild_release.py \
+            --work-dir work \
+            --bundles-dir bundles \
+            --docs-dir docs \
+            --assets-dir release-assets \
+            --repo-out . \
+            --repo "${{ inputs.repo }}" \
+            --tag "${{ inputs.tag }}"
+
+      - name: Create release if needed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh release view "${{ inputs.tag }}" --repo "${{ inputs.repo }}" >/dev/null 2>&1; then
+            gh release create "${{ inputs.tag }}" --repo "${{ inputs.repo }}" --title "${{ inputs.tag }}" --notes "Offline package release"
+          fi
+
+      - name: Upload release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          shopt -s nullglob
+          assets=(release-assets/*)
+          if [ ${#assets[@]} -eq 0 ]; then
+            echo "No assets found in release-assets/"
+            exit 1
+          fi
+          gh release upload "${{ inputs.tag }}" "${assets[@]}" --repo "${{ inputs.repo }}" --clobber
