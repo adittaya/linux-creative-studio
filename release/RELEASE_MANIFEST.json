@@ -4,6 +4,7 @@
     "id": "alembic",
     "name": "Alembic",
     "safe_id": "alembic",
+    "arch": "any",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -13,17 +14,18 @@
     "url": "https://www.alembic.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-alembic.zip",
+    "asset": "pkg-alembic-any.zip",
     "asset_sha256": "2818961c33492c50c379f2faacced53070b8ca56361d445395d159b40ebcb856",
     "asset_size": 296480,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alembic.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alembic-any.zip"
   },
   {
     "kind": "package",
     "id": "alicevision",
     "name": "AliceVision",
     "safe_id": "alicevision",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -33,17 +35,18 @@
     "url": "https://github.com/alicevision/AliceVision",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-alicevision.zip",
+    "asset": "pkg-alicevision-source.zip",
     "asset_sha256": "156d9fbcd568f5b83675e8dc1ccf12b7879e59b42ee6ee3b3d9459f78148f0f4",
     "asset_size": 12074332,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alicevision.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alicevision-source.zip"
   },
   {
     "kind": "package",
     "id": "av",
     "name": "PyAV",
     "safe_id": "av",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -53,17 +56,18 @@
     "url": "https://pyav.org/docs/stable/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-av.zip",
+    "asset": "pkg-av-x86_64.zip",
     "asset_sha256": "5aabd9771408dacb5cd79574d323c76fafc862ad643523aca5debbd4e10aaa20",
     "asset_size": 34766260,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-av.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-av-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "@babylonjs/core",
     "name": "Babylon.js",
     "safe_id": "babylonjs-core",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -73,17 +77,18 @@
     "url": "https://doc.babylonjs.com/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-babylonjs-core.zip",
+    "asset": "pkg-babylonjs-core-any.zip",
     "asset_sha256": "75f5736808e037141236445d8ab3344e471972ad9661793a45b6682e086b8493",
     "asset_size": 14157273,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-babylonjs-core.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-babylonjs-core-any.zip"
   },
   {
     "kind": "package",
     "id": "blender",
     "name": "Blender 5.3+",
     "safe_id": "blender",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -93,17 +98,18 @@
     "url": "https://www.blender.org/download/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-blender.zip",
+    "asset": "pkg-blender-x86_64.zip",
     "asset_sha256": "12b3d85e7db47d4c30ffb90fa7bf61f1f8d14338049c37e1afb79c12e4c51ea8",
     "asset_size": 407049186,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-blender.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-blender-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "bytetrack",
     "name": "ByteTrack",
     "safe_id": "bytetrack",
+    "arch": "source",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -113,17 +119,18 @@
     "url": "https://github.com/ifzhang/ByteTrack",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-bytetrack.zip",
+    "asset": "pkg-bytetrack-source.zip",
     "asset_sha256": "a566365fc0e9eec55219a049b8e5ded977bb6708bee6c1371fb95f0c8fbab385",
     "asset_size": 65494748,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-bytetrack.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-bytetrack-source.zip"
   },
   {
     "kind": "package",
     "id": "cairosvg",
     "name": "CairoSVG",
     "safe_id": "cairosvg",
+    "arch": "any",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -133,17 +140,18 @@
     "url": "https://cairosvg.org/documentation/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-cairosvg.zip",
+    "asset": "pkg-cairosvg-any.zip",
     "asset_sha256": "9651d378caa47fd53f3778047112583eb40d2cd06447283fe75083bd0c5dfdd8",
     "asset_size": 47604,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cairosvg.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cairosvg-any.zip"
   },
   {
     "kind": "package",
     "id": "cloudcompare",
     "name": "CloudCompare",
     "safe_id": "cloudcompare",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -153,17 +161,18 @@
     "url": "https://www.cloudcompare.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-cloudcompare.zip",
+    "asset": "pkg-cloudcompare-source.zip",
     "asset_sha256": "c0ce1304f165336b60c6084963f18169b3b2dd27a96d3e43de2b5f19a070813f",
     "asset_size": 36581229,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cloudcompare.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cloudcompare-source.zip"
   },
   {
     "kind": "package",
     "id": "co-tracker",
     "name": "CoTracker 3",
     "safe_id": "co-tracker",
+    "arch": "source",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -173,17 +182,18 @@
     "url": "https://github.com/facebookresearch/co-tracker",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-co-tracker.zip",
+    "asset": "pkg-co-tracker-source.zip",
     "asset_sha256": "a26d80d290eb6e3fc04e29aa1e88b3fbe6540560a9f8174415b26dd1d436268d",
     "asset_size": 33555992,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-co-tracker.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-co-tracker-source.zip"
   },
   {
     "kind": "package",
     "id": "colmap",
     "name": "COLMAP",
     "safe_id": "colmap",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -193,17 +203,18 @@
     "url": "https://colmap.github.io/install.html",
     "license_warning": null,
     "caveat": "Default distro builds may not enable CUDA or HIP",
-    "asset": "pkg-colmap.zip",
+    "asset": "pkg-colmap-x86_64.zip",
     "asset_sha256": "42192d0bca551c8f1c1eb79b8bea19326c39e0c417b78ee2e8339102c2f57315",
     "asset_size": 2293512,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-colmap.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-colmap-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "cosign",
     "name": "Cosign",
     "safe_id": "cosign",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -213,17 +224,18 @@
     "url": "https://docs.sigstore.dev/cosign/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-cosign.zip",
+    "asset": "pkg-cosign-x86_64.zip",
     "asset_sha256": "e5830ac240bf27d79efd93f2498cf415e75d3d58e7a3734a8fe70cac99becbdf",
     "asset_size": 60356505,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cosign.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cosign-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "cvat",
     "name": "CVAT",
     "safe_id": "cvat",
+    "arch": "source",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -233,17 +245,18 @@
     "url": "https://docs.cvat.ai/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-cvat.zip",
+    "asset": "pkg-cvat-source.zip",
     "asset_sha256": "ca032a09109423a56d596e92f5b495aae7b29fd5696464e14666052e7ecc8341",
     "asset_size": 119236968,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cvat.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cvat-source.zip"
   },
   {
     "kind": "package",
     "id": "demucs",
     "name": "Demucs",
     "safe_id": "demucs",
+    "arch": "any",
     "capabilities": [
       "audio"
     ],
@@ -253,17 +266,18 @@
     "url": "https://github.com/facebookresearch/demucs",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-demucs.zip",
+    "asset": "pkg-demucs-any.zip",
     "asset_sha256": "61b2ddaf1c838ead03b5a5d720057324c242270c7b925c89af6aa528148a5024",
     "asset_size": 99451,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-demucs.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-demucs-any.zip"
   },
   {
     "kind": "package",
     "id": "depth-anything-v2",
     "name": "Depth Anything V2",
     "safe_id": "depth-anything-v2",
+    "arch": "any",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -273,17 +287,18 @@
     "url": "https://github.com/DepthAnything/Depth-Anything-V2",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-depth-anything-v2.zip",
+    "asset": "pkg-depth-anything-v2-any.zip",
     "asset_sha256": "2af056bccdd90c43cc82c45d9da6d0c069cff39c6212503fcb4e8e2cf92a20ec",
     "asset_size": 28343,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-depth-anything-v2.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-depth-anything-v2-any.zip"
   },
   {
     "kind": "package",
     "id": "detectron2",
     "name": "Detectron2",
     "safe_id": "detectron2",
+    "arch": "source",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -293,17 +308,18 @@
     "url": "https://github.com/facebookresearch/detectron2",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-detectron2.zip",
+    "asset": "pkg-detectron2-source.zip",
     "asset_sha256": "de616375a3e3b356b85f1a99e20fd3b8bfe0644c014abf4a37e0a117b785c036",
     "asset_size": 1287213,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-detectron2.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-detectron2-source.zip"
   },
   {
     "kind": "package",
     "id": "dinov3",
     "name": "DINOv3",
     "safe_id": "dinov3",
+    "arch": "source",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -313,17 +329,18 @@
     "url": "https://github.com/facebookresearch/dinov3",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-dinov3.zip",
+    "asset": "pkg-dinov3-source.zip",
     "asset_sha256": "b3a8775b1ac2ba64ff51f1c7b58089204f389dd336be122f326641141864efec",
     "asset_size": 13437543,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dinov3.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dinov3-source.zip"
   },
   {
     "kind": "package",
     "id": "duckdb",
     "name": "DuckDB",
     "safe_id": "duckdb",
+    "arch": "x86_64",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -333,17 +350,18 @@
     "url": "https://duckdb.org/docs/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-duckdb.zip",
+    "asset": "pkg-duckdb-x86_64.zip",
     "asset_sha256": "a3523541b9c4f301f6940d92769e5074e2372c8874b742475793a7b18e685cd0",
     "asset_size": 24860619,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-duckdb.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-duckdb-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "dvc",
     "name": "DVC",
     "safe_id": "dvc",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -353,17 +371,18 @@
     "url": "https://doc.dvc.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-dvc.zip",
+    "asset": "pkg-dvc-any.zip",
     "asset_sha256": "bef4b1d42a46cd3938fea293f0bd4804edc52d04fb0c0b75bf3b7a0501693df2",
     "asset_size": 449314,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dvc.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dvc-any.zip"
   },
   {
     "kind": "package",
     "id": "e2fgvi",
     "name": "E2FGVI",
     "safe_id": "e2fgvi",
+    "arch": "source",
     "capabilities": [
       "restoration"
     ],
@@ -373,17 +392,18 @@
     "url": "https://github.com/MCG-NKU/E2FGVI",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-e2fgvi.zip",
+    "asset": "pkg-e2fgvi-source.zip",
     "asset_sha256": "e8bb35cb521c257175ff5cd0562202de103e7171100782d84a46a5aac5e7d3e2",
     "asset_size": 38523282,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-e2fgvi.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-e2fgvi-source.zip"
   },
   {
     "kind": "package",
     "id": "essentia",
     "name": "Essentia",
     "safe_id": "essentia",
+    "arch": "x86_64",
     "capabilities": [
       "audio"
     ],
@@ -393,17 +413,18 @@
     "url": "https://essentia.upf.edu/documentation.html",
     "license_warning": "AGPLv3 or separate proprietary terms",
     "caveat": null,
-    "asset": "pkg-essentia.zip",
+    "asset": "pkg-essentia-x86_64.zip",
     "asset_sha256": "49d44776298c836975e3485d805ac3269278863625de216027d485190aa7ddd7",
     "asset_size": 13997683,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-essentia.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-essentia-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "fastapi",
     "name": "FastAPI",
     "safe_id": "fastapi",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -413,17 +434,18 @@
     "url": "https://fastapi.tiangolo.com/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-fastapi.zip",
+    "asset": "pkg-fastapi-any.zip",
     "asset_sha256": "f3ce331c1090b58ad6427d652907b741255f45265c28772d8a9b9e8f9f37a23d",
     "asset_size": 156189,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastapi.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastapi-any.zip"
   },
   {
     "kind": "package",
     "id": "faster-whisper",
     "name": "faster-whisper",
     "safe_id": "faster-whisper",
+    "arch": "any",
     "capabilities": [
       "audio"
     ],
@@ -433,17 +455,18 @@
     "url": "https://github.com/SYSTRAN/faster-whisper",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-faster-whisper.zip",
+    "asset": "pkg-faster-whisper-any.zip",
     "asset_sha256": "b45d81e8a799780349cbecd701260e77946a3d6f380eaabb2f1b78e618df143a",
     "asset_size": 1097250,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-faster-whisper.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-faster-whisper-any.zip"
   },
   {
     "kind": "package",
     "id": "fastsam",
     "name": "FastSAM",
     "safe_id": "fastsam",
+    "arch": "source",
     "capabilities": [
       "segmentation"
     ],
@@ -453,17 +476,18 @@
     "url": "https://github.com/CASIA-IVA-Lab/FastSAM",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-fastsam.zip",
+    "asset": "pkg-fastsam-source.zip",
     "asset_sha256": "079efa9141a0c140292984068f0ece1db1acbe7d7508ce68691dec6a875c3fee",
     "asset_size": 42026807,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastsam.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastsam-source.zip"
   },
   {
     "kind": "package",
     "id": "ffmpeg",
     "name": "FFmpeg",
     "safe_id": "ffmpeg",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -473,17 +497,18 @@
     "url": "https://ffmpeg.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-ffmpeg.zip",
+    "asset": "pkg-ffmpeg-x86_64.zip",
     "asset_sha256": "1a0da2d91c301050aed388a71bfd040f0b13181a6de0c8f09d78d983a4640394",
     "asset_size": 1882105,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ffmpeg.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ffmpeg-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "fiftyone",
     "name": "FiftyOne",
     "safe_id": "fiftyone",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -493,17 +518,18 @@
     "url": "https://docs.voxel51.com/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-fiftyone.zip",
+    "asset": "pkg-fiftyone-any.zip",
     "asset_sha256": "5e6a42b84d5acb0e302686911a3566aaba833ac6129676372df7cbc7800658f6",
     "asset_size": 23833087,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fiftyone.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fiftyone-any.zip"
   },
   {
     "kind": "package",
     "id": "filterpy",
     "name": "filterpy",
     "safe_id": "filterpy",
+    "arch": "any",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -513,17 +539,18 @@
     "url": "https://github.com/rlabbe/filterpy",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-filterpy.zip",
+    "asset": "pkg-filterpy-any.zip",
     "asset_sha256": "4f3d9d48c65225468d6393f4ff48787cabd94c3df445319a81bc5f7b5be6a26f",
     "asset_size": 111091,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-filterpy.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-filterpy-any.zip"
   },
   {
     "kind": "package",
     "id": "florence-2",
     "name": "Florence-2",
     "safe_id": "florence-2",
+    "arch": "source",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -533,17 +560,18 @@
     "url": "https://huggingface.co/microsoft/Florence-2-large",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-florence-2.zip",
+    "asset": "pkg-florence-2-source.zip",
     "asset_sha256": "c088ce8db1699af7f978caff54bea49428c7b53bc5155720a62a8dd5a9eaa486",
     "asset_size": 5250155,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-florence-2.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-florence-2-source.zip"
   },
   {
     "kind": "package",
     "id": "flowformer",
     "name": "FlowFormer",
     "safe_id": "flowformer",
+    "arch": "source",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -553,17 +581,18 @@
     "url": "https://github.com/drinkingcoder/FlowFormer-Official",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-flowformer.zip",
+    "asset": "pkg-flowformer-source.zip",
     "asset_sha256": "dd6bf261c5d3849ac427f2623d78e8f21ae867e75842475172bc58ab67ba5f27",
     "asset_size": 945188,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-flowformer.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-flowformer-source.zip"
   },
   {
     "kind": "package",
     "id": "fonttools",
     "name": "FontTools",
     "safe_id": "fonttools",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -573,17 +602,18 @@
     "url": "https://fonttools.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-fonttools.zip",
+    "asset": "pkg-fonttools-x86_64.zip",
     "asset_sha256": "3940b0bf5a36be8aeaaf700f1a90796fddd91bc48ad62f0c0453f5d88322e2d6",
     "asset_size": 5308702,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fonttools.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fonttools-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "gimp",
     "name": "GIMP",
     "safe_id": "gimp",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -593,17 +623,18 @@
     "url": "https://www.gimp.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-gimp.zip",
+    "asset": "pkg-gimp-x86_64.zip",
     "asset_sha256": "19f54823efce02dc914d45323ccccf69fdab5a3474f2e242179cffe999b574de",
     "asset_size": 4677413,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gimp.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gimp-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "gmflow",
     "name": "GMFlow",
     "safe_id": "gmflow",
+    "arch": "source",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -613,17 +644,18 @@
     "url": "https://github.com/haofeixu/gmflow",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-gmflow.zip",
+    "asset": "pkg-gmflow-source.zip",
     "asset_sha256": "acb4c997d2cc1d1a7fdea49c5ee5b0e0ef49b73edafa85e4aff88e928521162b",
     "asset_size": 4165061,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gmflow.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gmflow-source.zip"
   },
   {
     "kind": "package",
     "id": "groundingdino",
     "name": "Grounding DINO",
     "safe_id": "groundingdino",
+    "arch": "source",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -633,17 +665,18 @@
     "url": "https://github.com/IDEA-Research/GroundingDINO",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-groundingdino.zip",
+    "asset": "pkg-groundingdino-source.zip",
     "asset_sha256": "89e94d27806d941590069f0e568bd1c44bf9880dd8af4198e223073eec82a80b",
     "asset_size": 11171986,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-groundingdino.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-groundingdino-source.zip"
   },
   {
     "kind": "package",
     "id": "gsap",
     "name": "GSAP",
     "safe_id": "gsap",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -653,17 +686,18 @@
     "url": "https://gsap.com/docs/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-gsap.zip",
+    "asset": "pkg-gsap-any.zip",
     "asset_sha256": "d44838921fc60c383cec30776fb1671acd87cd812efcd6d3b1f63158c9b2a790",
     "asset_size": 1704937,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsap.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsap-any.zip"
   },
   {
     "kind": "package",
     "id": "gsplat",
     "name": "gsplat",
     "safe_id": "gsplat",
+    "arch": "any",
     "capabilities": [
       "neural_3d"
     ],
@@ -673,17 +707,18 @@
     "url": "https://github.com/nerfstudio-project/gsplat",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-gsplat.zip",
+    "asset": "pkg-gsplat-any.zip",
     "asset_sha256": "125a4d318e65ec1c45465cc37795746932503b4d7cf46d3d9d45c1dda72affa7",
     "asset_size": 6109103,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsplat.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsplat-any.zip"
   },
   {
     "kind": "package",
     "id": "gstreamer1.0",
     "name": "GStreamer",
     "safe_id": "gstreamer1.0",
+    "arch": "multiarch",
     "capabilities": [
       "media_ingest"
     ],
@@ -693,17 +728,18 @@
     "url": "https://gstreamer.freedesktop.org/documentation/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-gstreamer1.0.zip",
+    "asset": "pkg-gstreamer1.0-multiarch.zip",
     "asset_sha256": "263b3abc694ecaaa24ac5f2a5e052abe2f01f20c5edfb413fafa8ec44cd2097f",
     "asset_size": 9301231,
     "artifact_count": 34,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gstreamer1.0.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gstreamer1.0-multiarch.zip"
   },
   {
     "kind": "package",
     "id": "hloc",
     "name": "hloc",
     "safe_id": "hloc",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -713,17 +749,18 @@
     "url": "https://github.com/cvg/Hierarchical-Localization",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-hloc.zip",
+    "asset": "pkg-hloc-source.zip",
     "asset_sha256": "5cc85fcba645c333ee2d2d28346383eeb37d347e973a0f1c0d6ea2472336c16f",
     "asset_size": 10413152,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hloc.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hloc-source.zip"
   },
   {
     "kind": "package",
     "id": "hyperframes",
     "name": "HyperFrames",
     "safe_id": "hyperframes",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -733,17 +770,18 @@
     "url": "https://github.com/hyperframes/hyperframes",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-hyperframes.zip",
+    "asset": "pkg-hyperframes-any.zip",
     "asset_sha256": "3cffd846863d1acb46b8c51c1459a87109d23d9714f1a599dc3dece17fcf73a7",
     "asset_size": 8401547,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hyperframes.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hyperframes-any.zip"
   },
   {
     "kind": "package",
     "id": "hypothesis",
     "name": "Hypothesis",
     "safe_id": "hypothesis",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -753,17 +791,18 @@
     "url": "https://hypothesis.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-hypothesis.zip",
+    "asset": "pkg-hypothesis-x86_64.zip",
     "asset_sha256": "534d203d079f3da5af31a1ff997f0c9ff6783d3556a8f45886d8274651af8c1b",
     "asset_size": 1162080,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hypothesis.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hypothesis-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "inkscape",
     "name": "Inkscape",
     "safe_id": "inkscape",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -773,17 +812,18 @@
     "url": "https://inkscape.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-inkscape.zip",
+    "asset": "pkg-inkscape-x86_64.zip",
     "asset_sha256": "514cf35d5b6317f28db42452b60c4dc610159bd08de7c659a194f2fcbb361d5b",
     "asset_size": 21489810,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-inkscape.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-inkscape-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "instant-ngp",
     "name": "instant-ngp",
     "safe_id": "instant-ngp",
+    "arch": "source",
     "capabilities": [
       "neural_3d"
     ],
@@ -793,17 +833,18 @@
     "url": "https://github.com/NVlabs/instant-ngp",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-instant-ngp.zip",
+    "asset": "pkg-instant-ngp-source.zip",
     "asset_sha256": "ab188e67f2670869325de14918fdab82169164aea0cbc822274a6bec88011c5e",
     "asset_size": 87036729,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-instant-ngp.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-instant-ngp-source.zip"
   },
   {
     "kind": "package",
     "id": "jsonschema",
     "name": "jsonschema",
     "safe_id": "jsonschema",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -813,17 +854,18 @@
     "url": "https://python-jsonschema.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-jsonschema.zip",
+    "asset": "pkg-jsonschema-any.zip",
     "asset_sha256": "58ee47480683e25dd155677cbca23ea3c36d8f704a62fa7751564a4c17714e93",
     "asset_size": 90073,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-jsonschema.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-jsonschema-any.zip"
   },
   {
     "kind": "package",
     "id": "krita",
     "name": "Krita",
     "safe_id": "krita",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -833,17 +875,18 @@
     "url": "https://krita.org/en/download/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-krita.zip",
+    "asset": "pkg-krita-x86_64.zip",
     "asset_sha256": "4026b9d9cef86a39f842549a87fe5b736c43eeaa71e7327b5a70cc8c1ccdd93c",
     "asset_size": 364743089,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-krita.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-krita-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "label-studio",
     "name": "Label Studio",
     "safe_id": "label-studio",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -853,17 +896,18 @@
     "url": "https://labelstud.io/guide/install.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-label-studio.zip",
+    "asset": "pkg-label-studio-any.zip",
     "asset_sha256": "dada46331b5eb76e03118edbd19b48851a2ab612321613942241b3e98c578cdc",
     "asset_size": 72665172,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-label-studio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-label-studio-any.zip"
   },
   {
     "kind": "package",
     "id": "lama",
     "name": "LaMa",
     "safe_id": "lama",
+    "arch": "source",
     "capabilities": [
       "restoration"
     ],
@@ -873,17 +917,18 @@
     "url": "https://github.com/advimman/lama",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-lama.zip",
+    "asset": "pkg-lama-source.zip",
     "asset_sha256": "751d641078c40d8134daa05a14f3893556074b155e7cdf8b507180845273a6e3",
     "asset_size": 5722504,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lama.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lama-source.zip"
   },
   {
     "kind": "package",
     "id": "libimage-exiftool-perl",
     "name": "ExifTool",
     "safe_id": "libimage-exiftool-perl",
+    "arch": "any",
     "capabilities": [
       "media_ingest"
     ],
@@ -893,17 +938,18 @@
     "url": "https://exiftool.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-libimage-exiftool-perl.zip",
+    "asset": "pkg-libimage-exiftool-perl-any.zip",
     "asset_sha256": "2929d2000533f2bb64673d5ea5e16b8ebc07625e5b0b64f910ecce3f3f37cea5",
     "asset_size": 3904457,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libimage-exiftool-perl.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libimage-exiftool-perl-any.zip"
   },
   {
     "kind": "package",
     "id": "libplacebo",
     "name": "libplacebo",
     "safe_id": "libplacebo",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -913,17 +959,18 @@
     "url": "https://github.com/haasn/libplacebo",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-libplacebo.zip",
+    "asset": "pkg-libplacebo-x86_64.zip",
     "asset_sha256": "97d6ccecb673bd1b132b689fb5cc35ff231628797f040ce60d4c78fff2b1c0aa",
     "asset_size": 2771352,
     "artifact_count": 2,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libplacebo.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libplacebo-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "librosa",
     "name": "librosa",
     "safe_id": "librosa",
+    "arch": "any",
     "capabilities": [
       "audio"
     ],
@@ -933,17 +980,18 @@
     "url": "https://librosa.org/doc/latest/index.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-librosa.zip",
+    "asset": "pkg-librosa-any.zip",
     "asset_sha256": "a65dd2be1173b25da997b03bab0cd26f2bac71e33e5dc8e2957399606cd0d773",
     "asset_size": 301227,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-librosa.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-librosa-any.zip"
   },
   {
     "kind": "package",
     "id": "lightglue",
     "name": "LightGlue",
     "safe_id": "lightglue",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -953,17 +1001,18 @@
     "url": "https://github.com/cvg/LightGlue",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-lightglue.zip",
+    "asset": "pkg-lightglue-source.zip",
     "asset_sha256": "821dfb3df25dbadba7eb913985ecb515a9925948b5ee35b0bca2237a6d000cf6",
     "asset_size": 6088929,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lightglue.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lightglue-source.zip"
   },
   {
     "kind": "package",
     "id": "lottie-web",
     "name": "Lottie Web",
     "safe_id": "lottie-web",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -973,17 +1022,18 @@
     "url": "https://github.com/airbnb/lottie-web",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-lottie-web.zip",
+    "asset": "pkg-lottie-web-any.zip",
     "asset_sha256": "d363ead8bf1aa93755c9b8233162cfcebe4e95db7f371fbb046e492a4f0acd6a",
     "asset_size": 4634948,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lottie-web.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lottie-web-any.zip"
   },
   {
     "kind": "package",
     "id": "manifold3d",
     "name": "manifold3d",
     "safe_id": "manifold3d",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -993,17 +1043,18 @@
     "url": "https://github.com/elalish/manifold",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-manifold3d.zip",
+    "asset": "pkg-manifold3d-x86_64.zip",
     "asset_sha256": "bc6ad020e8ae4190cbcdb4f971cdc27e2b9635b3f291ed164c451f678c4f8b14",
     "asset_size": 1341638,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-manifold3d.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-manifold3d-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "materialx",
     "name": "MaterialX",
     "safe_id": "materialx",
+    "arch": "source",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1013,17 +1064,18 @@
     "url": "https://materialx.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-materialx.zip",
+    "asset": "pkg-materialx-source.zip",
     "asset_sha256": "ca9c452e86739a85c3e04daef92647945ccda68af4f9cb9724d9ce460f4a6738",
     "asset_size": 114514919,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-materialx.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-materialx-source.zip"
   },
   {
     "kind": "package",
     "id": "mediainfo",
     "name": "MediaInfo",
     "safe_id": "mediainfo",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -1033,17 +1085,18 @@
     "url": "https://mediaarea.net/MediaInfo",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mediainfo.zip",
+    "asset": "pkg-mediainfo-x86_64.zip",
     "asset_sha256": "3cd7ca3cc83c376d798c60d805dad446d1b0024cc2505bf28d36b8ca6b0cee3c",
     "asset_size": 30627,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mediainfo.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mediainfo-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "meshlab",
     "name": "MeshLab",
     "safe_id": "meshlab",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1053,17 +1106,18 @@
     "url": "https://www.meshlab.net/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-meshlab.zip",
+    "asset": "pkg-meshlab-x86_64.zip",
     "asset_sha256": "fbb4a56fb94f373c9565298dac1046a3025d08f6c1da7283eac7f193c4d5fddf",
     "asset_size": 5196750,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshlab.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshlab-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "meshroom",
     "name": "Meshroom",
     "safe_id": "meshroom",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1073,17 +1127,18 @@
     "url": "https://meshroom.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-meshroom.zip",
+    "asset": "pkg-meshroom-source.zip",
     "asset_sha256": "1aa7d796dd110990673c43d0428f06fbfb8c432519c96fe1735bda6c0493dc2b",
     "asset_size": 2672770,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshroom.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshroom-source.zip"
   },
   {
     "kind": "package",
     "id": "mitsuba",
     "name": "Mitsuba 3",
     "safe_id": "mitsuba",
+    "arch": "x86_64",
     "capabilities": [
       "neural_3d"
     ],
@@ -1093,17 +1148,18 @@
     "url": "https://mitsuba.readthedocs.io/en/stable/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mitsuba.zip",
+    "asset": "pkg-mitsuba-x86_64.zip",
     "asset_sha256": "fe13800205cbf63b759e401aa48b5c3e3ea4316cf81d4899c067873113d65fcf",
     "asset_size": 61995584,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mitsuba.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mitsuba-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "mlflow",
     "name": "MLflow",
     "safe_id": "mlflow",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1113,17 +1169,18 @@
     "url": "https://mlflow.org/docs/latest/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mlflow.zip",
+    "asset": "pkg-mlflow-any.zip",
     "asset_sha256": "843966f5e69ae5efe31afe9ced1b71ba71a6ca92a73da4603f4aed51f73de059",
     "asset_size": 12390513,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mlflow.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mlflow-any.zip"
   },
   {
     "kind": "package",
     "id": "mmdet",
     "name": "MMDetection",
     "safe_id": "mmdet",
+    "arch": "any",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -1133,17 +1190,18 @@
     "url": "https://mmdetection.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mmdet.zip",
+    "asset": "pkg-mmdet-any.zip",
     "asset_sha256": "a1c5dd07bb3fa57aaeb415fa4e443932c683549a5b24895d2079bb9abfd8175d",
     "asset_size": 2013471,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mmdet.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mmdet-any.zip"
   },
   {
     "kind": "package",
     "id": "mobile-sam",
     "name": "MobileSAM",
     "safe_id": "mobile-sam",
+    "arch": "source",
     "capabilities": [
       "segmentation"
     ],
@@ -1153,17 +1211,18 @@
     "url": "https://github.com/ChaoningZhang/MobileSAM",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mobile-sam.zip",
+    "asset": "pkg-mobile-sam-source.zip",
     "asset_sha256": "09cbb6a20a03c8b45430998585fbb059cb78eb1e601e2f236345a0e4bbd2138d",
     "asset_size": 77508250,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mobile-sam.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mobile-sam-source.zip"
   },
   {
     "kind": "package",
     "id": "motion-canvas",
     "name": "Motion Canvas",
     "safe_id": "motion-canvas",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -1173,17 +1232,18 @@
     "url": "https://motioncanvas.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-motion-canvas.zip",
+    "asset": "pkg-motion-canvas-any.zip",
     "asset_sha256": "424a07a61643e5ab23ef4894c08d24f59d78473855c94f4cc8f427b18a634e11",
     "asset_size": 586889,
     "artifact_count": 2,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motion-canvas.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motion-canvas-any.zip"
   },
   {
     "kind": "package",
     "id": "motmetrics",
     "name": "motmetrics",
     "safe_id": "motmetrics",
+    "arch": "any",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -1193,17 +1253,18 @@
     "url": "https://github.com/cheind/py-motmetrics",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-motmetrics.zip",
+    "asset": "pkg-motmetrics-any.zip",
     "asset_sha256": "0944e4c2e3ce1cdbb26e5605f5b88e760a0704ef4852881c20733b74881ae16f",
     "asset_size": 161920,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motmetrics.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motmetrics-any.zip"
   },
   {
     "kind": "package",
     "id": "mypy",
     "name": "mypy",
     "safe_id": "mypy",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -1213,17 +1274,18 @@
     "url": "https://mypy.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-mypy.zip",
+    "asset": "pkg-mypy-x86_64.zip",
     "asset_sha256": "20960c8c7c2775d6f6e7d5c64f2d8c2dc10a8bc77af23d8f410ccc31018b26c6",
     "asset_size": 15114235,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mypy.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mypy-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "napari",
     "name": "napari",
     "safe_id": "napari",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1233,17 +1295,18 @@
     "url": "https://napari.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-napari.zip",
+    "asset": "pkg-napari-any.zip",
     "asset_sha256": "a68bd712e5baace25f4d407b75d7ef7c57d6d15778b9f6b06ac415d38304c2e2",
     "asset_size": 3671855,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-napari.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-napari-any.zip"
   },
   {
     "kind": "package",
     "id": "natron",
     "name": "Natron",
     "safe_id": "natron",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1253,17 +1316,18 @@
     "url": "https://github.com/NatronGitHub/Natron",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-natron.zip",
+    "asset": "pkg-natron-x86_64.zip",
     "asset_sha256": "db86252f6441c6a31f150a42ec0d1cc280c84a8e7e0771e8f0fe945333115868",
     "asset_size": 147122030,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-natron.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-natron-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "nerfacc",
     "name": "nerfacc",
     "safe_id": "nerfacc",
+    "arch": "source",
     "capabilities": [
       "neural_3d"
     ],
@@ -1273,17 +1337,18 @@
     "url": "https://github.com/nerfstudio-project/nerfacc",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-nerfacc.zip",
+    "asset": "pkg-nerfacc-source.zip",
     "asset_sha256": "3b933c8516641472bc97c0e4549104642d8c87f24a45e869dc2adf669e9fd7c8",
     "asset_size": 1557057,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfacc.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfacc-source.zip"
   },
   {
     "kind": "package",
     "id": "nerfstudio",
     "name": "Nerfstudio",
     "safe_id": "nerfstudio",
+    "arch": "source",
     "capabilities": [
       "neural_3d"
     ],
@@ -1293,17 +1358,18 @@
     "url": "https://docs.nerf.studio/quickstart/installation.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-nerfstudio.zip",
+    "asset": "pkg-nerfstudio-source.zip",
     "asset_sha256": "a58cd7eb4e357ef3e2c966de5cd944505ca565c9275150c10a647d26a187c530",
     "asset_size": 25562265,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfstudio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfstudio-source.zip"
   },
   {
     "kind": "package",
     "id": "nodejs",
     "name": "Node.js 26 LTS",
     "safe_id": "nodejs",
+    "arch": "x86_64",
     "capabilities": [
       "browser_rendering"
     ],
@@ -1313,17 +1379,18 @@
     "url": "https://nodejs.org/en/about/previous-releases",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-nodejs.zip",
+    "asset": "pkg-nodejs-x86_64.zip",
     "asset_sha256": "38debbfff6bae33014f575f95edbc7aa50933bd09df5b3c6924b7cef51214cbc",
     "asset_size": 34106248,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nodejs.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nodejs-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "norfair",
     "name": "Norfair",
     "safe_id": "norfair",
+    "arch": "any",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -1333,17 +1400,18 @@
     "url": "https://github.com/tryolabs/norfair",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-norfair.zip",
+    "asset": "pkg-norfair-any.zip",
     "asset_sha256": "40410e71a63ad7f156a13e2834dac011279856d1d4ea760073b115b11a1d6ab3",
     "asset_size": 57605,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-norfair.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-norfair-any.zip"
   },
   {
     "kind": "package",
     "id": "numpy",
     "name": "NumPy",
     "safe_id": "numpy",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -1353,17 +1421,18 @@
     "url": "https://numpy.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-numpy.zip",
+    "asset": "pkg-numpy-x86_64.zip",
     "asset_sha256": "803575966d7d3bb550ac406e556443553ea370303d440d97b96f8c843a01c19c",
     "asset_size": 15518595,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-numpy.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-numpy-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "open3d",
     "name": "Open3D",
     "safe_id": "open3d",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1373,17 +1442,18 @@
     "url": "https://www.open3d.org/docs/latest/getting_started.html",
     "license_warning": null,
     "caveat": "Current wheels explicitly support Ubuntu 22.04+; verify Debian wheel or build from source",
-    "asset": "pkg-open3d.zip",
+    "asset": "pkg-open3d-x86_64.zip",
     "asset_sha256": "130969d7c41b33895936d86166a3b049232dde0b57353a10c30031065b150b52",
     "asset_size": 389794962,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-open3d.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-open3d-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "opencolorio",
     "name": "OpenColorIO",
     "safe_id": "opencolorio",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1393,17 +1463,18 @@
     "url": "https://opencolorio.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opencolorio.zip",
+    "asset": "pkg-opencolorio-x86_64.zip",
     "asset_sha256": "ec91fd17a639b8a561803852b619f5db10f594266bb6da6c9faac21a3448be03",
     "asset_size": 215718,
     "artifact_count": 2,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencolorio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencolorio-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "opencv-contrib-python-headless",
     "name": "OpenCV contrib",
     "safe_id": "opencv-contrib-python-headless",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -1413,17 +1484,18 @@
     "url": "https://opencv.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opencv-contrib-python-headless.zip",
+    "asset": "pkg-opencv-contrib-python-headless-x86_64.zip",
     "asset_sha256": "7847f5cb8e916a3e014ad871ed8b633d9319f047152441cca3532ab93d5b9d9d",
     "asset_size": 72984222,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-contrib-python-headless.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-contrib-python-headless-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "opencv-dis",
     "name": "DIS Optical Flow",
     "safe_id": "opencv-dis",
+    "arch": "x86_64",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -1433,17 +1505,18 @@
     "url": "https://docs.opencv.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opencv-dis.zip",
+    "asset": "pkg-opencv-dis-x86_64.zip",
     "asset_sha256": "bac959736316e9c83d0695e6e4c148235e97e064837db672331a6da022beb1de",
     "asset_size": 63391944,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-dis.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-dis-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "openexr",
     "name": "OpenEXR",
     "safe_id": "openexr",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1453,17 +1526,18 @@
     "url": "https://openexr.com/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openexr.zip",
+    "asset": "pkg-openexr-x86_64.zip",
     "asset_sha256": "81de76c6c249bec8a30ae151d07c7ae1c9dc5f042b1dc89e37d87eec74a17572",
     "asset_size": 103946,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openexr.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openexr-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "openimageio",
     "name": "OpenImageIO",
     "safe_id": "openimageio",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1473,17 +1547,18 @@
     "url": "https://github.com/AcademySoftwareFoundation/OpenImageIO",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openimageio.zip",
+    "asset": "pkg-openimageio-x86_64.zip",
     "asset_sha256": "85b109aa60c945490aa8cc65fe6e75f37b6434224a766585c3f71fd33c401116",
     "asset_size": 1088551,
     "artifact_count": 2,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openimageio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openimageio-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "openmvg",
     "name": "OpenMVG",
     "safe_id": "openmvg",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1493,17 +1568,18 @@
     "url": "https://github.com/openMVG/openMVG",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openmvg.zip",
+    "asset": "pkg-openmvg-source.zip",
     "asset_sha256": "509f80fd5149153743fc219ba8d0ba1386388f8752ac2b7d373b6a5d10ae568b",
     "asset_size": 17479630,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvg.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvg-source.zip"
   },
   {
     "kind": "package",
     "id": "openmvs",
     "name": "OpenMVS",
     "safe_id": "openmvs",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1513,17 +1589,18 @@
     "url": "https://github.com/cdcseacave/openMVS",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openmvs.zip",
+    "asset": "pkg-openmvs-source.zip",
     "asset_sha256": "1333d5d44951f08e99188d3631165f555714b9cc5046ec66d11c0349316ce9cb",
     "asset_size": 3359740,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvs.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvs-source.zip"
   },
   {
     "kind": "package",
     "id": "opensubdiv",
     "name": "OpenSubdiv",
     "safe_id": "opensubdiv",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1533,17 +1610,18 @@
     "url": "https://opensubdiv.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opensubdiv.zip",
+    "asset": "pkg-opensubdiv-x86_64.zip",
     "asset_sha256": "a7d9c891e7a43735d71ca00d7bb0d712ea3c571d88f6b668f93ca5967bd61c25",
     "asset_size": 147797,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opensubdiv.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opensubdiv-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "opentimelineio",
     "name": "OpenTimelineIO",
     "safe_id": "opentimelineio",
+    "arch": "any",
     "capabilities": [
       "media_ingest"
     ],
@@ -1553,17 +1631,18 @@
     "url": "https://opentimeline.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opentimelineio.zip",
+    "asset": "pkg-opentimelineio-any.zip",
     "asset_sha256": "b74764bbf5bbdccbc657958df67b6576dd8afa8bb8e7989da68d8c6b03cfb867",
     "asset_size": 2769566,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentimelineio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentimelineio-any.zip"
   },
   {
     "kind": "package",
     "id": "opentoonz",
     "name": "OpenToonz",
     "safe_id": "opentoonz",
+    "arch": "source",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -1573,17 +1652,18 @@
     "url": "https://github.com/opentoonz/opentoonz",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-opentoonz.zip",
+    "asset": "pkg-opentoonz-source.zip",
     "asset_sha256": "31a97c46f9a490e4fe9e750b4f54d74af32fa8e968002e6944e6697f1ae1c1df",
     "asset_size": 89691129,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentoonz.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentoonz-source.zip"
   },
   {
     "kind": "package",
     "id": "openusd",
     "name": "OpenUSD",
     "safe_id": "openusd",
+    "arch": "source",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1593,17 +1673,18 @@
     "url": "https://github.com/PixarAnimationStudios/OpenUSD",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openusd.zip",
+    "asset": "pkg-openusd-source.zip",
     "asset_sha256": "e6defc614158759693ffecc3d1bd85fba11553e6fcc2719bf04e6f66a84f6a62",
     "asset_size": 171436405,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openusd.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openusd-source.zip"
   },
   {
     "kind": "package",
     "id": "openvdb",
     "name": "OpenVDB",
     "safe_id": "openvdb",
+    "arch": "x86_64",
     "capabilities": [
       "blender_and_vfx"
     ],
@@ -1613,17 +1694,18 @@
     "url": "https://www.openvdb.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-openvdb.zip",
+    "asset": "pkg-openvdb-x86_64.zip",
     "asset_sha256": "01acfdc0f6501d6e1611c4e062e9e2a6bdbe9d5f9c11c9200f517226d3dae2e1",
     "asset_size": 579787,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openvdb.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openvdb-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "osv-scanner",
     "name": "OSV Scanner",
     "safe_id": "osv-scanner",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -1633,17 +1715,18 @@
     "url": "https://github.com/google/osv-scanner",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-osv-scanner.zip",
+    "asset": "pkg-osv-scanner-x86_64.zip",
     "asset_sha256": "e7fffc4a29fad7f85b9ccdf32f6df5805f6bf3fbe75ddd1a2979b9fc9a1c63f1",
     "asset_size": 21096286,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-osv-scanner.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-osv-scanner-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pencil2d",
     "name": "Pencil2D",
     "safe_id": "pencil2d",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -1653,17 +1736,18 @@
     "url": "https://www.pencil2d.org/download/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pencil2d.zip",
+    "asset": "pkg-pencil2d-x86_64.zip",
     "asset_sha256": "de2f43e8830e002d63b08274ca26703c9173bd50ae102b1bf50d8046e5084f90",
     "asset_size": 1649175,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pencil2d.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pencil2d-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pillow",
     "name": "Pillow",
     "safe_id": "pillow",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -1673,17 +1757,18 @@
     "url": "https://pillow.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pillow.zip",
+    "asset": "pkg-pillow-x86_64.zip",
     "asset_sha256": "ce55dd65fe026b1dcfbcb5b24df2524bed262993f58b4bfd908aea2ba79cdb99",
     "asset_size": 7104237,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pillow.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pillow-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pip-audit",
     "name": "pip-audit",
     "safe_id": "pip-audit",
+    "arch": "any",
     "capabilities": [
       "quality_and_security"
     ],
@@ -1693,17 +1778,18 @@
     "url": "https://github.com/pypa/pip-audit",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pip-audit.zip",
+    "asset": "pkg-pip-audit-any.zip",
     "asset_sha256": "3124d0864d56d616992ace954324953a156f823bbfcfdd177d065d70ca5a6b35",
     "asset_size": 62499,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pip-audit.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pip-audit-any.zip"
   },
   {
     "kind": "package",
     "id": "pixi.js",
     "name": "PixiJS",
     "safe_id": "pixi.js",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -1713,17 +1799,18 @@
     "url": "https://pixijs.com/guides/components/renderers/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pixi.js.zip",
+    "asset": "pkg-pixi.js-any.zip",
     "asset_sha256": "03211e86cf0d1d3c1bffbea2069f58403131b1509ce55e42947bf6ea542ab95e",
     "asset_size": 16695166,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pixi.js.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pixi.js-any.zip"
   },
   {
     "kind": "package",
     "id": "playwright",
     "name": "Playwright",
     "safe_id": "playwright",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -1733,17 +1820,18 @@
     "url": "https://playwright.dev/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-playwright.zip",
+    "asset": "pkg-playwright-any.zip",
     "asset_sha256": "b7c41d2bc2e5b30db72847fb6718bd9c3bc6f0d97ed64ab544cd6eb6ddc761a9",
     "asset_size": 913044,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-playwright.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-playwright-any.zip"
   },
   {
     "kind": "package",
     "id": "prefect",
     "name": "Prefect",
     "safe_id": "prefect",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1753,17 +1841,18 @@
     "url": "https://docs.prefect.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-prefect.zip",
+    "asset": "pkg-prefect-any.zip",
     "asset_sha256": "efcad95654a41ae5b30b49355b60f17f79545765944954f5312bbed0f0efe986",
     "asset_size": 6860128,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-prefect.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-prefect-any.zip"
   },
   {
     "kind": "package",
     "id": "propainter",
     "name": "ProPainter",
     "safe_id": "propainter",
+    "arch": "source",
     "capabilities": [
       "restoration"
     ],
@@ -1773,17 +1862,18 @@
     "url": "https://github.com/sczhou/ProPainter",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-propainter.zip",
+    "asset": "pkg-propainter-source.zip",
     "asset_sha256": "c193f70418ac6a269bd4b0e854f85b5c1da8181ee488a989d7430313e9061009",
     "asset_size": 58329524,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-propainter.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-propainter-source.zip"
   },
   {
     "kind": "package",
     "id": "pyannote-audio",
     "name": "pyannote.audio",
     "safe_id": "pyannote-audio",
+    "arch": "any",
     "capabilities": [
       "audio"
     ],
@@ -1793,17 +1883,18 @@
     "url": "https://github.com/pyannote/pyannote-audio",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pyannote-audio.zip",
+    "asset": "pkg-pyannote-audio-any.zip",
     "asset_sha256": "57b3a442c05637d96560de44c25341791d3ab6ca653a75393973bdaae8928962",
     "asset_size": 890538,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyannote-audio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyannote-audio-any.zip"
   },
   {
     "kind": "package",
     "id": "pyarrow",
     "name": "PyArrow",
     "safe_id": "pyarrow",
+    "arch": "x86_64",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1813,17 +1904,18 @@
     "url": "https://arrow.apache.org/docs/python/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pyarrow.zip",
+    "asset": "pkg-pyarrow-x86_64.zip",
     "asset_sha256": "81f87bd23ad573144712113c3a8b4cc3f33c4839d5cd8b387a4c04a310be843a",
     "asset_size": 54649337,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyarrow.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyarrow-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pycolmap",
     "name": "pycolmap",
     "safe_id": "pycolmap",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1833,17 +1925,18 @@
     "url": "https://github.com/colmap/pycolmap",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pycolmap.zip",
+    "asset": "pkg-pycolmap-x86_64.zip",
     "asset_sha256": "ae41e33c59e8df37c0eb636827331815c2b572baddac281496f431117e24a0cd",
     "asset_size": 37892999,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pycolmap.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pycolmap-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pydantic",
     "name": "Pydantic",
     "safe_id": "pydantic",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1853,17 +1946,18 @@
     "url": "https://docs.pydantic.dev/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pydantic.zip",
+    "asset": "pkg-pydantic-any.zip",
     "asset_sha256": "6a4a80dfb38f44f7deff02284c75ee503c16b9d6613b6261df4295271fe20270",
     "asset_size": 490045,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pydantic.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pydantic-any.zip"
   },
   {
     "kind": "package",
     "id": "pymeshlab",
     "name": "PyMeshLab",
     "safe_id": "pymeshlab",
+    "arch": "x86_64",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1873,17 +1967,18 @@
     "url": "https://pymeshlab.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pymeshlab.zip",
+    "asset": "pkg-pymeshlab-x86_64.zip",
     "asset_sha256": "7faeb55c8a81f7ce82543884fd14dcdf835393a090b5746ebd9661488183d1c0",
     "asset_size": 105698168,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pymeshlab.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pymeshlab-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "pyright",
     "name": "pyright",
     "safe_id": "pyright",
+    "arch": "any",
     "capabilities": [
       "quality_and_security"
     ],
@@ -1893,17 +1988,18 @@
     "url": "https://github.com/microsoft/pyright",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pyright.zip",
+    "asset": "pkg-pyright-any.zip",
     "asset_sha256": "f1928edf47108c0e716609e4d3d028b2f248db7302b81e0d71748b0d3259132b",
     "asset_size": 4230608,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyright.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyright-any.zip"
   },
   {
     "kind": "package",
     "id": "pytest",
     "name": "pytest",
     "safe_id": "pytest",
+    "arch": "any",
     "capabilities": [
       "quality_and_security"
     ],
@@ -1913,17 +2009,18 @@
     "url": "https://docs.pytest.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pytest.zip",
+    "asset": "pkg-pytest-any.zip",
     "asset_sha256": "5327d26d3ec630b612b2dae97ad7077a3fff67d1fa934773f0761c9d44d17c33",
     "asset_size": 409376,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pytest.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pytest-any.zip"
   },
   {
     "kind": "package",
     "id": "pyvips",
     "name": "pyvips",
     "safe_id": "pyvips",
+    "arch": "any",
     "capabilities": [
       "classical_cv"
     ],
@@ -1933,17 +2030,18 @@
     "url": "https://www.libvips.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pyvips.zip",
+    "asset": "pkg-pyvips-any.zip",
     "asset_sha256": "71f1f64b19d410bfae2b797bcb45621a0695fbfe67d50e7dfaf42fc4046b81b9",
     "asset_size": 74922,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvips.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvips-any.zip"
   },
   {
     "kind": "package",
     "id": "pyvista",
     "name": "PyVista",
     "safe_id": "pyvista",
+    "arch": "any",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -1953,17 +2051,18 @@
     "url": "https://docs.pyvista.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-pyvista.zip",
+    "asset": "pkg-pyvista-any.zip",
     "asset_sha256": "af5a34fd8b5877bb5d90801e0602a28d1f857dc12764a08dd65818d97d33a09c",
     "asset_size": 2718270,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvista.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvista-any.zip"
   },
   {
     "kind": "package",
     "id": "qwen3-vl",
     "name": "Qwen3-VL",
     "safe_id": "qwen3-vl",
+    "arch": "source",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -1973,17 +2072,18 @@
     "url": "https://huggingface.co/Qwen",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-qwen3-vl.zip",
+    "asset": "pkg-qwen3-vl-source.zip",
     "asset_sha256": "00fe253c7dd5d1f4e5490e87d0e91e327aaa067d01bd3c15531e2013f65277e1",
     "asset_size": 3782574,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-qwen3-vl.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-qwen3-vl-source.zip"
   },
   {
     "kind": "package",
     "id": "ray",
     "name": "Ray",
     "safe_id": "ray",
+    "arch": "x86_64",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -1993,17 +2093,18 @@
     "url": "https://docs.ray.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-ray.zip",
+    "asset": "pkg-ray-x86_64.zip",
     "asset_sha256": "f1b8066d87634849ed0bf29fa02a85d6619bf32cce0fa61cf707ce3fa37ad4e9",
     "asset_size": 78585812,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ray.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ray-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "realesrgan",
     "name": "Real-ESRGAN",
     "safe_id": "realesrgan",
+    "arch": "source",
     "capabilities": [
       "restoration"
     ],
@@ -2013,17 +2114,18 @@
     "url": "https://github.com/xinntao/Real-ESRGAN",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-realesrgan.zip",
+    "asset": "pkg-realesrgan-source.zip",
     "asset_sha256": "d79212d30391427fe4715ede163a9c45645e83a61fa162c4761d5521640daf40",
     "asset_size": 5088447,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-realesrgan.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-realesrgan-source.zip"
   },
   {
     "kind": "package",
     "id": "remotion",
     "name": "Remotion",
     "safe_id": "remotion",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -2033,17 +2135,18 @@
     "url": "https://www.remotion.dev/docs/license/pricing",
     "license_warning": "Review current individual/company/automation license terms",
     "caveat": null,
-    "asset": "pkg-remotion.zip",
+    "asset": "pkg-remotion-any.zip",
     "asset_sha256": "e791f53024296d802ee907387ac86408f1d432590c30d895e0ae5b232e5f95b6",
     "asset_size": 452192,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-remotion.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-remotion-any.zip"
   },
   {
     "kind": "package",
     "id": "rife",
     "name": "RIFE",
     "safe_id": "rife",
+    "arch": "source",
     "capabilities": [
       "restoration"
     ],
@@ -2053,17 +2156,18 @@
     "url": "https://github.com/hzwer/ECCV2022-RIFE",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-rife.zip",
+    "asset": "pkg-rife-source.zip",
     "asset_sha256": "07c524928c56de361efa1168f976e44d4e5c0f7c5ca94a8d93889ab85da1dc2b",
     "asset_size": 3932739,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-rife.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-rife-source.zip"
   },
   {
     "kind": "package",
     "id": "ruff",
     "name": "Ruff",
     "safe_id": "ruff",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -2073,17 +2177,18 @@
     "url": "https://docs.astral.sh/ruff/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-ruff.zip",
+    "asset": "pkg-ruff-x86_64.zip",
     "asset_sha256": "1071d454d725364856570c80451c260a726770f579ffa6f91c6b39d74f4ff05f",
     "asset_size": 10605592,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ruff.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ruff-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "sam2",
     "name": "SAM 2",
     "safe_id": "sam2",
+    "arch": "source",
     "capabilities": [
       "segmentation"
     ],
@@ -2093,17 +2198,18 @@
     "url": "https://github.com/facebookresearch/sam2",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-sam2.zip",
+    "asset": "pkg-sam2-source.zip",
     "asset_sha256": "9ce9e06d6cfbe2e43950f9190141f97e7a237ecec659598234e6a2d9a7b69341",
     "asset_size": 55840184,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam2.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam2-source.zip"
   },
   {
     "kind": "package",
     "id": "sam3",
     "name": "SAM 3.1",
     "safe_id": "sam3",
+    "arch": "source",
     "capabilities": [
       "segmentation"
     ],
@@ -2113,17 +2219,18 @@
     "url": "https://github.com/facebookresearch/sam3",
     "license_warning": "checkpoint terms and access gating must be reviewed independently of code",
     "caveat": null,
-    "asset": "pkg-sam3.zip",
+    "asset": "pkg-sam3-source.zip",
     "asset_sha256": "3885383d621e44c0d2f7f07869865a94f791b3892fcb9b71e68614ecdd4c28a9",
     "asset_size": 62512074,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam3.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam3-source.zip"
   },
   {
     "kind": "package",
     "id": "scenedetect",
     "name": "PySceneDetect",
     "safe_id": "scenedetect",
+    "arch": "any",
     "capabilities": [
       "media_ingest"
     ],
@@ -2133,17 +2240,18 @@
     "url": "https://www.scenedetect.com/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-scenedetect.zip",
+    "asset": "pkg-scenedetect-any.zip",
     "asset_sha256": "fd87b2d46d9cd654afc40d00473d2f0d8afc91b607039830bd2986bdea30c98d",
     "asset_size": 159528,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scenedetect.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scenedetect-any.zip"
   },
   {
     "kind": "package",
     "id": "scikit-image",
     "name": "scikit-image",
     "safe_id": "scikit-image",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -2153,17 +2261,18 @@
     "url": "https://scikit-image.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-scikit-image.zip",
+    "asset": "pkg-scikit-image-x86_64.zip",
     "asset_sha256": "b19e3ec8842552d4d461276fa62b7ac92a6fc0d72c0d773dfa571d57f64d6204",
     "asset_size": 13609904,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-image.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-image-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "scikit-learn",
     "name": "scikit-learn",
     "safe_id": "scikit-learn",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -2173,17 +2282,18 @@
     "url": "https://scikit-learn.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-scikit-learn.zip",
+    "asset": "pkg-scikit-learn-x86_64.zip",
     "asset_sha256": "0b13c7fae4807b702940968f34a0597fe424fced48cbc422b9b1802e75406da3",
     "asset_size": 9010068,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-learn.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-learn-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "scipy",
     "name": "SciPy",
     "safe_id": "scipy",
+    "arch": "x86_64",
     "capabilities": [
       "classical_cv"
     ],
@@ -2193,17 +2303,18 @@
     "url": "https://scipy.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-scipy.zip",
+    "asset": "pkg-scipy-x86_64.zip",
     "asset_sha256": "9d572a12e92dde964f44e7d777208b47ae702cc64a75c6fbcc9eb039e71d49a3",
     "asset_size": 34887190,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scipy.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scipy-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "shapely",
     "name": "Shapely",
     "safe_id": "shapely",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2213,17 +2324,18 @@
     "url": "https://shapely.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-shapely.zip",
+    "asset": "pkg-shapely-x86_64.zip",
     "asset_sha256": "45b5d1841f5bc5df2e68068acb2411c6c3d5c00753a41f340552e43f7d2c03e2",
     "asset_size": 2265571,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-shapely.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-shapely-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "skia-python",
     "name": "skia-python",
     "safe_id": "skia-python",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2233,17 +2345,18 @@
     "url": "https://github.com/skia-python/skia-python",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-skia-python.zip",
+    "asset": "pkg-skia-python-x86_64.zip",
     "asset_sha256": "abdda6766cb0057ee64166cd4254bd152fabe054593a746c1d31fe0574947eed",
     "asset_size": 14670598,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-skia-python.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-skia-python-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "syft",
     "name": "Syft",
     "safe_id": "syft",
+    "arch": "x86_64",
     "capabilities": [
       "quality_and_security"
     ],
@@ -2253,17 +2366,18 @@
     "url": "https://github.com/anchore/syft",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-syft.zip",
+    "asset": "pkg-syft-x86_64.zip",
     "asset_sha256": "a1422e6e02e38542d1e2a58eba3c6d9c5169507135d5496bfbc24292e5bb52e9",
     "asset_size": 31402925,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-syft.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-syft-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "synfig",
     "name": "Synfig",
     "safe_id": "synfig",
+    "arch": "source",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2273,17 +2387,18 @@
     "url": "https://www.synfig.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-synfig.zip",
+    "asset": "pkg-synfig-source.zip",
     "asset_sha256": "3455b5cc3f4a3a16cc9cf196acaf961965fc9fc0885d08008d44dcda1bfe6a8c",
     "asset_size": 15543470,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-synfig.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-synfig-source.zip"
   },
   {
     "kind": "package",
     "id": "tahoma2d",
     "name": "Tahoma2D",
     "safe_id": "tahoma2d",
+    "arch": "any",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2293,17 +2408,18 @@
     "url": "https://tahoma2d.org/download.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-tahoma2d.zip",
+    "asset": "pkg-tahoma2d-any.zip",
     "asset_sha256": "d82738f1f22a0c7b9c8a259e0db3fc1518a81541427a0c46d008d078481f6b86",
     "asset_size": 328135294,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tahoma2d.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tahoma2d-any.zip"
   },
   {
     "kind": "package",
     "id": "tapnet",
     "name": "TAPIR/TAPNet",
     "safe_id": "tapnet",
+    "arch": "source",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -2313,17 +2429,18 @@
     "url": "https://github.com/google-deepmind/tapnet",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-tapnet.zip",
+    "asset": "pkg-tapnet-source.zip",
     "asset_sha256": "875cb8e4edfb612267857881e3db9536f3ff5f6e5d883b5ce252d9e48fbcf2d8",
     "asset_size": 2375657,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tapnet.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tapnet-source.zip"
   },
   {
     "kind": "package",
     "id": "@theatre/core",
     "name": "Theatre.js",
     "safe_id": "theatre-core",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -2333,17 +2450,18 @@
     "url": "https://www.theatrejs.com/docs/latest/manual/projects",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-theatre-core.zip",
+    "asset": "pkg-theatre-core-any.zip",
     "asset_sha256": "44de489525fc73927627737cbef622981dc89280eefb04ca524f358040880bdc",
     "asset_size": 214978,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-theatre-core.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-theatre-core-any.zip"
   },
   {
     "kind": "package",
     "id": "three",
     "name": "Three.js",
     "safe_id": "three",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -2353,17 +2471,18 @@
     "url": "https://threejs.org/docs/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-three.zip",
+    "asset": "pkg-three-any.zip",
     "asset_sha256": "40ac556635a303f9e7e08acb3cd24f8fad7bd4474980b9ea7010d5ea1ba28f00",
     "asset_size": 4797528,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-three.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-three-any.zip"
   },
   {
     "kind": "package",
     "id": "torchaudio",
     "name": "torchaudio",
     "safe_id": "torchaudio",
+    "arch": "x86_64",
     "capabilities": [
       "audio"
     ],
@@ -2373,17 +2492,18 @@
     "url": "https://pytorch.org/audio/stable/index.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-torchaudio.zip",
+    "asset": "pkg-torchaudio-x86_64.zip",
     "asset_sha256": "5cb627120d32b3ab10bda72c08b138867fd2fec27edb4828dbc0f8a94ca5844e",
     "asset_size": 1779404,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchaudio.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchaudio-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "torchvision-raft",
     "name": "RAFT",
     "safe_id": "torchvision-raft",
+    "arch": "x86_64",
     "capabilities": [
       "tracking_and_flow"
     ],
@@ -2393,17 +2513,18 @@
     "url": "https://docs.pytorch.org/vision/stable/models/raft.html",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-torchvision-raft.zip",
+    "asset": "pkg-torchvision-raft-x86_64.zip",
     "asset_sha256": "64f38ef76a20792e807bfb451bd0231a395d5d9f09827c667d7838e1172c4b97",
     "asset_size": 7530375,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchvision-raft.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchvision-raft-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "trimesh",
     "name": "trimesh",
     "safe_id": "trimesh",
+    "arch": "any",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -2413,17 +2534,18 @@
     "url": "https://trimesh.org/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-trimesh.zip",
+    "asset": "pkg-trimesh-any.zip",
     "asset_sha256": "c3c464dcd5a1358a19b3d9d61d7b9b0abc89be6afe49588c7dd675c285211072",
     "asset_size": 747132,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trimesh.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trimesh-any.zip"
   },
   {
     "kind": "package",
     "id": "trivy",
     "name": "Trivy",
     "safe_id": "trivy",
+    "arch": "any",
     "capabilities": [
       "quality_and_security"
     ],
@@ -2433,17 +2555,18 @@
     "url": "https://trivy.dev/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-trivy.zip",
+    "asset": "pkg-trivy-any.zip",
     "asset_sha256": "52abed8e28aadb0fe1644f45aa39180dce26a2989becd4754553baab7c95e6cd",
     "asset_size": 52409887,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trivy.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trivy-any.zip"
   },
   {
     "kind": "package",
     "id": "uharfbuzz",
     "name": "HarfBuzz Python binding",
     "safe_id": "uharfbuzz",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2453,17 +2576,18 @@
     "url": "https://harfbuzz.github.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-uharfbuzz.zip",
+    "asset": "pkg-uharfbuzz-x86_64.zip",
     "asset_sha256": "b02a71bf5885d2e507f42832fe222a53f3bcd59364d785e6b5f6203f7090f814",
     "asset_size": 2136753,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-uharfbuzz.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-uharfbuzz-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "ultralytics",
     "name": "Ultralytics YOLO",
     "safe_id": "ultralytics",
+    "arch": "any",
     "capabilities": [
       "detection_and_vlm"
     ],
@@ -2473,17 +2597,18 @@
     "url": "https://www.ultralytics.com/license",
     "license_warning": "AGPL-3.0 default code/model terms; assess enterprise license for proprietary/commercial deployment",
     "caveat": null,
-    "asset": "pkg-ultralytics.zip",
+    "asset": "pkg-ultralytics-any.zip",
     "asset_sha256": "f85adbb589eb56c3596607ed96eb87fa429188aca095170e62a84af0b2db74ad",
     "asset_size": 1439541,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ultralytics.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ultralytics-any.zip"
   },
   {
     "kind": "package",
     "id": "vapoursynth",
     "name": "VapourSynth",
     "safe_id": "vapoursynth",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -2493,17 +2618,18 @@
     "url": "https://www.vapoursynth.com/doc/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-vapoursynth.zip",
+    "asset": "pkg-vapoursynth-x86_64.zip",
     "asset_sha256": "b8af946d230b7c34465c25f2b896f9e82b7a7c2d8b416ea88479592bca7faf95",
     "asset_size": 6371441,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vapoursynth.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vapoursynth-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "video-depth-anything",
     "name": "Video Depth Anything",
     "safe_id": "video-depth-anything",
+    "arch": "source",
     "capabilities": [
       "depth_and_3d_reconstruction"
     ],
@@ -2513,17 +2639,18 @@
     "url": "https://github.com/DepthAnything/Video-Depth-Anything",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-video-depth-anything.zip",
+    "asset": "pkg-video-depth-anything-source.zip",
     "asset_sha256": "ad2f6cc881dc2895dabeec637b5433fd6e4bc1ee6f9d6491758461f4b5b7d7ff",
     "asset_size": 7898196,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-video-depth-anything.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-video-depth-anything-source.zip"
   },
   {
     "kind": "package",
     "id": "vite",
     "name": "Vite",
     "safe_id": "vite",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -2533,17 +2660,18 @@
     "url": "https://vite.dev/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-vite.zip",
+    "asset": "pkg-vite-any.zip",
     "asset_sha256": "9adc0ed01249199bcd31649ca3b46b6ca2907a47a524e514c33ac85fdbd6f436",
     "asset_size": 595327,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite-any.zip"
   },
   {
     "kind": "package",
     "id": "vite-plugin-singlefile",
     "name": "vite-plugin-singlefile",
     "safe_id": "vite-plugin-singlefile",
+    "arch": "any",
     "capabilities": [
       "browser_rendering"
     ],
@@ -2553,17 +2681,18 @@
     "url": "https://www.npmjs.com/package/vite-plugin-singlefile",
     "license_warning": null,
     "caveat": "Not all public/static assets are automatically inlined; audit output",
-    "asset": "pkg-vite-plugin-singlefile.zip",
+    "asset": "pkg-vite-plugin-singlefile-any.zip",
     "asset_sha256": "49bb472bf19d74870f9dcfd57da478cd84efc76bc1574c900d7f33685bce02bf",
     "asset_size": 12074,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite-plugin-singlefile.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite-plugin-singlefile-any.zip"
   },
   {
     "kind": "package",
     "id": "vtracer",
     "name": "VTracer",
     "safe_id": "vtracer",
+    "arch": "x86_64",
     "capabilities": [
       "2d_and_typography"
     ],
@@ -2573,17 +2702,18 @@
     "url": "https://github.com/visioncortex/vtracer",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-vtracer.zip",
+    "asset": "pkg-vtracer-x86_64.zip",
     "asset_sha256": "16f2fe7862384e257133c97ba79528cc5583a6a54b22aa2be4261c919e2e40d6",
     "asset_size": 1292157,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vtracer.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vtracer-x86_64.zip"
   },
   {
     "kind": "package",
     "id": "zarr",
     "name": "Zarr",
     "safe_id": "zarr",
+    "arch": "any",
     "capabilities": [
       "data_and_orchestration"
     ],
@@ -2593,17 +2723,18 @@
     "url": "https://zarr.readthedocs.io/",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-zarr.zip",
+    "asset": "pkg-zarr-any.zip",
     "asset_sha256": "64a32bd947e7c0cb6793f32aa4a990a817829c80238173e8aef7a741b3cfd687",
     "asset_size": 406756,
     "artifact_count": 1,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zarr.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zarr-any.zip"
   },
   {
     "kind": "package",
     "id": "zimg",
     "name": "zimg",
     "safe_id": "zimg",
+    "arch": "x86_64",
     "capabilities": [
       "media_ingest"
     ],
@@ -2613,11 +2744,11 @@
     "url": "https://github.com/sekrit-twc/zimg",
     "license_warning": null,
     "caveat": null,
-    "asset": "pkg-zimg.zip",
+    "asset": "pkg-zimg-x86_64.zip",
     "asset_sha256": "19a5b928d9360e06febe3a05ccb3cfcd2cae8969600c1dc3476287672390f641",
     "asset_size": 614245,
     "artifact_count": 2,
-    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zimg.zip"
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zimg-x86_64.zip"
   },
   {
     "kind": "bundle",
@@ -2754,8 +2885,8 @@
     "id": "SHA256SUMS",
     "name": "SHA256SUMS.txt",
     "asset": "SHA256SUMS.txt",
-    "asset_sha256": "b218e0812b3a1ef65e6e61440cdd86cb0815108781d62b808b76d98c4264ebb4",
-    "asset_size": 12268,
+    "asset_sha256": "6dfed1db07124ba5c0e568de88b944f8a9825449344fd6335755667cff384cbe",
+    "asset_size": 13050,
     "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/SHA256SUMS.txt"
   }
 ]
