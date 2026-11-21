@@ -1,0 +1,16 @@
+# Install PyTorch/torchvision first using the official selector.
+# SAM 3.1 and SAM 2 should each have separately tested environments/workers.
+# Install SAM 3.1 and SAM 2 from their upstream repositories at pinned commits;
+# do not assume `pip install sam3`/`sam2` supplies the official implementation.
+# Grounding DINO build/install may require compiler/CUDA checks; pin commit.
+# CoTracker3/TAPIR have model-repository and checkpoint requirements.
+supervision
+filterpy
+lap
+scikit-learn
+# Upstream-only worker installs (separate lockfiles):
+# facebookresearch/sam3
+# facebookresearch/sam2
+# IDEA-Research/GroundingDINO
+# facebookresearch/co-tracker
+# google-deepmind/tapnet

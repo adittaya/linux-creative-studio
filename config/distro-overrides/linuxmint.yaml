@@ -1,5 +1,0 @@
-distro: linuxmint
-inherits: ubuntu
-notes:
-  - "Map Mint release to its Ubuntu base before selecting an apt snapshot."
-  - "Prefer portable archives when a Mint-specific package cannot be verified."

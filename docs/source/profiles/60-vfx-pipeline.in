@@ -1,0 +1,8 @@
+# Optional Python bindings/helpers for VFX interchange and image pipelines.
+OpenImageIO
+OpenEXR
+opencolorio
+colour-science
+OpenTimelineIO
+# Check PyPI wheel support and native libraries on the exact OS before combining.
+# Native OpenUSD/MaterialX/Alembic/OpenVDB libraries may need APT or source builds.

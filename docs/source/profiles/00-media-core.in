@@ -1,0 +1,17 @@
+# Install into its own Python 3.12 environment with uv.
+# Do not combine with incompatible legacy model requirements.
+av
+numpy
+scipy
+opencv-contrib-python-headless
+Pillow
+scikit-image
+scikit-learn
+scenedetect[opencv]
+pydantic
+jsonschema
+pandas
+pyarrow
+duckdb
+imageio
+tifffile

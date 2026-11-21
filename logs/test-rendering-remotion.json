@@ -1,6 +1,0 @@
-{
-  "test": "remotion-render",
-  "status": "passed",
-  "output": "/workspaces/codespaces-blank/work/Linux-Creative-Studio/templates/remotion/starter/out/sample.mp4",
-  "ffprobe": "{\n    \"format\": {\n        \"duration\": \"3.000000\"\n    }\n}"
-}

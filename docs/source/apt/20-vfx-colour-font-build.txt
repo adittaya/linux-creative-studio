@@ -1,0 +1,19 @@
+# Optional VFX, HDR, colour, font and graphics headers.
+# Check apt-cache policy and use upstream builds if the distro version is too old.
+libopenexr-dev
+libopenimageio-dev
+libopencolorio-dev
+libopenvdb-dev
+libopensubdiv-dev
+libfontconfig1-dev
+libfreetype6-dev
+libharfbuzz-dev
+libfribidi-dev
+libcairo2-dev
+librsvg2-dev
+libpango1.0-dev
+libvulkan-dev
+vulkan-tools
+mesa-vulkan-drivers
+glslang-tools
+spirv-tools

@@ -1,0 +1,8 @@
+# Audio is optional to visual reconstruction; isolate it from vision workers.
+librosa
+soundfile
+pyloudnorm
+faster-whisper
+pyannote.audio
+# Essentia has GPL/AGPL-style licensing considerations and may need native builds;
+# review current upstream licence and platform docs before including it.

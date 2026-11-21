@@ -1,7 +1,0 @@
-{
-  "test": "blender-render",
-  "status": "passed",
-  "executable": "/workspaces/codespaces-blank/work/Linux-Creative-Studio/packages/3d/blender/active/bin/blender",
-  "output": "/workspaces/codespaces-blank/work/Linux-Creative-Studio/workspaces/renders/blender-test.png",
-  "bytes": 176048
-}

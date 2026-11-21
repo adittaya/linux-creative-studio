@@ -1,0 +1,10 @@
+# Use only in the OCR/typography environment.
+fonttools
+uharfbuzz
+freetype-py
+python-bidi
+rapidfuzz
+pytesseract
+paddleocr
+# PaddlePaddle CPU/GPU must be installed first from its official compatibility index.
+# Tesseract engine and language packs are native APT packages, not just Python wheels.

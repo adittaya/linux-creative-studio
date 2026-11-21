@@ -1,9 +1,0 @@
-{
-  "id": "ffmpeg-h264-delivery",
-  "video": {"codec": "libx264", "crf": 18, "preset": "medium", "pix_fmt": "yuv420p"},
-  "audio": {"codec": "aac", "bitrate": "192k"},
-  "container": "mp4",
-  "faststart": true,
-  "command_template": "ffmpeg -i INPUT -c:v libx264 -crf 18 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart OUTPUT",
-  "verify": "ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of json OUTPUT"
-}

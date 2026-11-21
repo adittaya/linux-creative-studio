@@ -1,0 +1,22 @@
+# Optional native build/development headers for OpenCV, FFmpeg and image processing.
+# Not required for wheel-only runtime installs.
+libopencv-dev
+libeigen3-dev
+libtbb-dev
+libopenblas-dev
+liblapack-dev
+libavcodec-dev
+libavformat-dev
+libavutil-dev
+libswscale-dev
+libswresample-dev
+libavfilter-dev
+libavdevice-dev
+libjpeg-dev
+libpng-dev
+libtiff-dev
+libwebp-dev
+libopenjp2-7-dev
+libraw-dev
+libheif-dev
+libvips-dev

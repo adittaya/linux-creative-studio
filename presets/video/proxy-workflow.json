@@ -1,9 +1,0 @@
-{
-  "id": "proxy-workflow",
-  "proxy_resolution": [960, 540],
-  "proxy_codec": "prores_proxy-or-h264-ultrafast",
-  "proxy_container": "mov",
-  "naming": "<source>.proxy.mov",
-  "workflow": "Generate proxies -> edit with proxies -> relink originals -> render full resolution -> verify with ffprobe",
-  "applications": ["kdenlive", "shotcut", "flowblade"]
-}

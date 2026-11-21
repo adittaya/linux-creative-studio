@@ -1,0 +1,251 @@
+registry_version: 1.0.0
+research_snapshot: 2026-11-21
+scope:
+  operating_systems: [Debian 13 Trixie, Ubuntu 26.04 LTS, Ubuntu 24.04 LTS]
+  architecture_priority: [x86_64, aarch64]
+  project: Agent 2 forensic motion reconstruction and preset engineering
+  note: >-
+    Registry entries are package recommendations, not a unified install lock. Verify
+    package versions, OS/GPU support, checkpoint terms and model availability before
+    enabling a capability. Python environments must be isolated by compatibility profile.
+
+install_policy:
+  host: apt
+  python: uv-or-micromamba
+  node: Node.js 26 LTS with package lock
+  blender: official versioned Linux distribution; bundled Python for bpy
+  models: pin repository revision and SHA-256; record weight license/access terms
+  no_global_pip: true
+  no_unqualified_latest: true
+
+operating_systems:
+  preferred:
+    - Debian 13.7
+    - Ubuntu 26.04 LTS
+  compatibility_fallback:
+    - Ubuntu 24.04 LTS
+  development_only:
+    - Ubuntu 26.10 interim
+  notes:
+    - Debian 13 and Ubuntu 26.04 are in current CUDA/ROCm support materials, but exact GPU/kernel compatibility still matters.
+    - Playwright's current documented Linux matrix includes Debian 12/13 and Ubuntu 22.04/24.04/26.04.
+
+environments:
+  - id: media-core
+    python: "3.12"
+    packages: [av, numpy, scipy, opencv-contrib-python-headless, pillow, scikit-image, scenedetect, pydantic, jsonschema, pyarrow, duckdb]
+  - id: vision-torch
+    python: "3.12"
+    packages: [torch, torchvision, transformers, accelerate, safetensors, huggingface-hub, einops, kornia]
+    note: Install torch/torchvision first using the official platform selector; pin CUDA/ROCm build.
+  - id: sam3-worker
+    python: "3.12+"
+    packages: [sam3-from-upstream-source]
+    note: Separate environment; current upstream instructions specify a CUDA-capable GPU and compatible PyTorch.
+  - id: sam2-worker
+    python: "3.10+"
+    packages: [sam2-from-upstream-source]
+    note: Separate environment from SAM 3 unless the complete dependency graph is tested.
+  - id: ocr-worker
+    python: "3.10-3.12 as supported by current Paddle wheels"
+    packages: [paddlepaddle-or-paddlepaddle-gpu, paddleocr, pytesseract]
+    note: Paddle GPU wheels use Paddle's package indexes and CUDA compatibility guidance.
+  - id: reconstruction-3d
+    python: "3.12 where supported"
+    packages: [pycolmap, open3d, trimesh, pymeshlab, pyvista]
+    note: COLMAP itself may be a native executable/source build; default distro builds may lack CUDA/HIP.
+  - id: audio-analysis
+    python: "3.12"
+    packages: [librosa, essentia, faster-whisper, pyannote-audio, torchaudio]
+  - id: qa-browser
+    python: "3.12"
+    packages: [playwright, pytest, pytest-playwright, hypothesis, pytest-cov, ruff]
+  - id: web-render
+    runtime: Node.js 26 LTS
+    packages: [three, pixi.js, gsap, vite, vite-plugin-singlefile, playwright]
+  - id: blender
+    runtime: Blender bundled Python
+    packages: [bpy, mathutils, bmesh]
+    note: bpy/mathutils are Blender application modules; do not mix with system Python ABI.
+
+capabilities:
+  media_ingest:
+    priority: P0
+    packages:
+      - {name: FFmpeg, id: ffmpeg, install: apt-or-upstream, role: demux-decode-encode-filter, url: https://ffmpeg.org/}
+      - {name: ffprobe, id: ffmpeg, install: same-as-ffmpeg, role: stream-metadata-and-timing-probe, url: https://ffmpeg.org/ffprobe.html}
+      - {name: PyAV, id: av, install: uv, role: PTS-timebase-aware-decoding, url: https://pyav.org/docs/stable/}
+      - {name: PySceneDetect, id: scenedetect, install: uv, role: candidate-cut-and-transition-detection, url: https://www.scenedetect.com/}
+      - {name: GStreamer, id: gstreamer1.0, install: apt-and-plugins, role: streaming-pipelines-and-hardware-codecs, url: https://gstreamer.freedesktop.org/documentation/}
+      - {name: VapourSynth, id: vapoursynth, install: uv-or-native-build, role: programmable-frame-server, url: https://www.vapoursynth.com/doc/}
+      - {name: OpenTimelineIO, id: opentimelineio, install: uv, role: editorial-timeline-interchange, url: https://opentimeline.io/}
+      - {name: MediaInfo, id: mediainfo, install: apt, role: secondary-media-metadata, url: https://mediaarea.net/MediaInfo}
+      - {name: ExifTool, id: libimage-exiftool-perl, install: apt, role: asset-metadata, url: https://exiftool.org/}
+      - {name: zimg, id: zimg, install: apt-or-source, role: colour-and-pixel-format-conversion, url: https://github.com/sekrit-twc/zimg}
+      - {name: libplacebo, id: libplacebo, install: apt-or-source, role: shader-based-scaling-and-tonemapping, url: https://github.com/haasn/libplacebo}
+  classical_cv:
+    priority: P0
+    packages:
+      - {name: OpenCV contrib, id: opencv-contrib-python-headless, install: uv-or-source, role: tracking-flow-calibration-contours, url: https://opencv.org/}
+      - {name: NumPy, id: numpy, install: uv, role: array-computation, url: https://numpy.org/}
+      - {name: SciPy, id: scipy, install: uv, role: optimization-filtering-interpolation, url: https://scipy.org/}
+      - {name: scikit-image, id: scikit-image, install: uv, role: structural-and-pixel-metrics, url: https://scikit-image.org/}
+      - {name: Pillow, id: pillow, install: uv, role: raster-processing, url: https://pillow.readthedocs.io/}
+      - {name: scikit-learn, id: scikit-learn, install: uv, role: clustering-and-PCA, url: https://scikit-learn.org/}
+      - {name: pyvips, id: pyvips, install: uv-plus-libvips, role: large-image-processing, url: https://www.libvips.org/}
+  detection_and_vlm:
+    priority: P1
+    packages:
+      - {name: Grounding DINO, id: groundingdino, install: upstream-source, role: open-vocabulary-box-detection, url: https://github.com/IDEA-Research/GroundingDINO}
+      - {name: Florence-2, id: florence-2, install: transformers-model, role: visual-grounding-and-image-understanding, url: https://huggingface.co/microsoft/Florence-2-large}
+      - {name: Qwen3-VL, id: qwen3-vl, install: transformers-or-vllm, role: local-vision-language-reasoning, url: https://huggingface.co/Qwen}
+      - {name: DINOv3, id: dinov3, install: transformers-or-upstream, role: visual-feature-extraction, url: https://github.com/facebookresearch/dinov3}
+      - {name: MMDetection, id: mmdet, install: uv-or-mim, role: detector-research-framework, url: https://mmdetection.readthedocs.io/}
+      - {name: Detectron2, id: detectron2, install: upstream-source, role: instance-segmentation-detection-framework, url: https://github.com/facebookresearch/detectron2}
+      - {name: Ultralytics YOLO, id: ultralytics, install: uv, role: detection-segmentation-pose, url: https://www.ultralytics.com/license, license_warning: AGPL-3.0 default code/model terms; assess enterprise license for proprietary/commercial deployment}
+  segmentation:
+    priority: P1
+    packages:
+      - {name: SAM 3.1, id: sam3, install: upstream-source-plus-gated-weights, role: promptable-image-video-segmentation-and-multi-object-tracking, url: https://github.com/facebookresearch/sam3, requirements: [Python>=3.12, PyTorch>=2.7, CUDA-capable GPU and compatible runtime], license_warning: checkpoint terms and access gating must be reviewed independently of code}
+      - {name: SAM 2, id: sam2, install: upstream-source, role: video-mask-propagation, url: https://github.com/facebookresearch/sam2, requirements: [Linux, Python>=3.10, PyTorch>=2.5.1, matching torchvision]}
+      - {name: MobileSAM, id: mobile-sam, install: upstream-source, role: lightweight-promptable-segmentation, url: https://github.com/ChaoningZhang/MobileSAM}
+      - {name: FastSAM, id: fastsam, install: upstream-source, role: fast-segmentation-alternative, url: https://github.com/CASIA-IVA-Lab/FastSAM}
+  tracking_and_flow:
+    priority: P1
+    packages:
+      - {name: CoTracker 3, id: co-tracker, install: upstream-source, role: dense-point-tracking, url: https://github.com/facebookresearch/co-tracker}
+      - {name: TAPIR/TAPNet, id: tapnet, install: upstream-source, role: long-range-point-tracking, url: https://github.com/google-deepmind/tapnet}
+      - {name: RAFT, id: torchvision-raft, install: torchvision, role: learned-dense-optical-flow, url: https://docs.pytorch.org/vision/stable/models/raft.html}
+      - {name: DIS Optical Flow, id: opencv-dis, install: opencv, role: fast-classical-dense-flow, url: https://docs.opencv.org/}
+      - {name: GMFlow, id: gmflow, install: upstream-source, role: learned-optical-flow-alternative, url: https://github.com/haofeixu/gmflow}
+      - {name: FlowFormer, id: flowformer, install: upstream-source, role: advanced-optical-flow, url: https://github.com/drinkingcoder/FlowFormer-Official}
+      - {name: ByteTrack, id: bytetrack, install: upstream-source, role: detection-to-track-association, url: https://github.com/ifzhang/ByteTrack}
+      - {name: Norfair, id: norfair, install: uv, role: configurable-tracking, url: https://github.com/tryolabs/norfair}
+      - {name: motmetrics, id: motmetrics, install: uv, role: multi-object-tracking-evaluation, url: https://github.com/cheind/py-motmetrics}
+      - {name: filterpy, id: filterpy, install: uv, role: Kalman-filtering, url: https://github.com/rlabbe/filterpy}
+  depth_and_3d_reconstruction:
+    priority: P1
+    packages:
+      - {name: Video Depth Anything, id: video-depth-anything, install: upstream-source-plus-weights, role: temporally-consistent-video-depth, url: https://github.com/DepthAnything/Video-Depth-Anything}
+      - {name: Depth Anything V2, id: depth-anything-v2, install: upstream-or-transformers, role: monocular-relative-depth, url: https://github.com/DepthAnything/Depth-Anything-V2}
+      - {name: COLMAP, id: colmap, install: apt-or-source, role: structure-from-motion-and-multi-view-stereo, url: https://colmap.github.io/install.html, caveat: Default distro builds may not enable CUDA or HIP}
+      - {name: pycolmap, id: pycolmap, install: uv-or-build, role: COLMAP-Python-API, url: https://github.com/colmap/pycolmap}
+      - {name: OpenMVG, id: openmvg, install: source, role: structure-from-motion, url: https://github.com/openMVG/openMVG}
+      - {name: OpenMVS, id: openmvs, install: source, role: dense-mvs-mesh-and-texturing, url: https://github.com/cdcseacave/openMVS}
+      - {name: AliceVision, id: alicevision, install: release-or-source, role: photogrammetry-pipeline, url: https://github.com/alicevision/AliceVision}
+      - {name: Meshroom, id: meshroom, install: release-plus-alicevision, role: photogrammetry-GUI, url: https://meshroom.readthedocs.io/}
+      - {name: hloc, id: hloc, install: upstream-source, role: hierarchical-localization-feature-matching, url: https://github.com/cvg/Hierarchical-Localization}
+      - {name: LightGlue, id: lightglue, install: upstream-source, role: learned-feature-matching, url: https://github.com/cvg/LightGlue}
+      - {name: Open3D, id: open3d, install: uv-wheel-or-source, role: point-cloud-registration-ICP-TSDF-mesh, url: https://www.open3d.org/docs/latest/getting_started.html, caveat: Current wheels explicitly support Ubuntu 22.04+; verify Debian wheel or build from source}
+      - {name: CloudCompare, id: cloudcompare, install: appimage-or-source, role: point-cloud-inspection, url: https://www.cloudcompare.org/}
+      - {name: MeshLab, id: meshlab, install: apt-or-appimage, role: mesh-inspection-and-cleanup, url: https://www.meshlab.net/}
+      - {name: trimesh, id: trimesh, install: uv, role: Python-mesh-scene-tools, url: https://trimesh.org/}
+      - {name: PyMeshLab, id: pymeshlab, install: uv, role: MeshLab-filter-API, url: https://pymeshlab.readthedocs.io/}
+      - {name: PyVista, id: pyvista, install: uv, role: VTK-based-3D-inspection, url: https://docs.pyvista.org/}
+      - {name: manifold3d, id: manifold3d, install: uv, role: robust-mesh-booleans, url: https://github.com/elalish/manifold}
+  neural_3d:
+    priority: P2
+    packages:
+      - {name: Nerfstudio, id: nerfstudio, install: micromamba-or-uv-plus-torch, role: NeRF-and-Gaussian-splat-workflows, url: https://docs.nerf.studio/quickstart/installation.html}
+      - {name: gsplat, id: gsplat, install: uv-plus-torch-and-CUDA-extension, role: CUDA-Gaussian-splatting, url: https://github.com/nerfstudio-project/gsplat}
+      - {name: nerfacc, id: nerfacc, install: source-or-wheel, role: accelerated-NeRF-rendering, url: https://github.com/nerfstudio-project/nerfacc}
+      - {name: instant-ngp, id: instant-ngp, install: source-CUDA-CMake, role: neural-graphics-primitives, url: https://github.com/NVlabs/instant-ngp}
+      - {name: Mitsuba 3, id: mitsuba, install: uv, role: differentiable-forward-inverse-light-transport, url: https://mitsuba.readthedocs.io/en/stable/}
+  blender_and_vfx:
+    priority: P0_if_3d
+    packages:
+      - {name: Blender 5.3+, id: blender, install: official-Linux-release, role: 2D-2.5D-3D-camera-geometry-nodes-compositing-and-rendering, url: https://www.blender.org/download/}
+      - {name: OpenUSD, id: openusd, install: source-or-compatible-binary, role: scene-description-and-interchange, url: https://github.com/PixarAnimationStudios/OpenUSD}
+      - {name: OpenColorIO, id: opencolorio, install: apt-or-source, role: colour-management, url: https://opencolorio.org/}
+      - {name: OpenImageIO, id: openimageio, install: apt-or-source, role: high-dynamic-range-image-I-O, url: https://github.com/AcademySoftwareFoundation/OpenImageIO}
+      - {name: OpenEXR, id: openexr, install: apt-or-source, role: HDR-and-multilayer-frame-interchange, url: https://openexr.com/}
+      - {name: OpenVDB, id: openvdb, install: apt-or-source, role: sparse-volumes, url: https://www.openvdb.org/}
+      - {name: MaterialX, id: materialx, install: source-or-compatible-package, role: material-lookdev-interchange, url: https://materialx.org/}
+      - {name: Alembic, id: alembic, install: apt-or-source, role: animated-geometry-caches, url: https://www.alembic.io/}
+      - {name: OpenSubdiv, id: opensubdiv, install: apt-or-source, role: subdivision-surface, url: https://opensubdiv.org/}
+      - {name: Natron, id: natron, install: Flatpak-or-release, role: node-compositing-OpenFX, url: https://github.com/NatronGitHub/Natron}
+  2d_and_typography:
+    priority: P1
+    packages:
+      - {name: Krita, id: krita, install: AppImage-or-Flatpak, role: painting-raster-and-frame-animation, url: https://krita.org/en/download/}
+      - {name: Inkscape, id: inkscape, install: apt-or-official, role: SVG-vector-authoring, url: https://inkscape.org/}
+      - {name: GIMP, id: gimp, install: apt-or-Flatpak, role: raster-retouching-and-masks, url: https://www.gimp.org/}
+      - {name: Tahoma2D, id: tahoma2d, install: official-portable-Linux, role: 2D-cutout-and-stop-motion, url: https://tahoma2d.org/download.html}
+      - {name: Pencil2D, id: pencil2d, install: apt-or-official, role: hand-drawn-animation, url: https://www.pencil2d.org/download/}
+      - {name: OpenToonz, id: opentoonz, install: official-release-or-supported-package, role: 2D-animation, url: https://github.com/opentoonz/opentoonz}
+      - {name: Synfig, id: synfig, install: official-build-or-apt, role: vector-bitmap-tween-animation, url: https://www.synfig.org/}
+      - {name: FontTools, id: fonttools, install: uv, role: font-metadata-and-glyph-outlines, url: https://fonttools.readthedocs.io/}
+      - {name: HarfBuzz Python binding, id: uharfbuzz, install: uv-plus-system-HarfBuzz, role: complex-text-shaping, url: https://harfbuzz.github.io/}
+      - {name: CairoSVG, id: cairosvg, install: uv-plus-Cairo-libs, role: SVG-raster-PDF-conversion, url: https://cairosvg.org/documentation/}
+      - {name: skia-python, id: skia-python, install: uv-plus-fontconfig-OpenGL, role: 2D-raster-vector-rendering, url: https://github.com/skia-python/skia-python}
+      - {name: VTracer, id: vtracer, install: binary-or-source, role: raster-to-vector-for-flat-graphics, url: https://github.com/visioncortex/vtracer}
+      - {name: Shapely, id: shapely, install: uv, role: planar-vector-geometry, url: https://shapely.readthedocs.io/}
+  browser_rendering:
+    priority: P0
+    packages:
+      - {name: Node.js 26 LTS, id: nodejs, install: version-manager-or-official, role: JavaScript-runtime, url: https://nodejs.org/en/about/previous-releases}
+      - {name: GSAP, id: gsap, install: npm, role: motion-timeline-and-easing, url: https://gsap.com/docs/}
+      - {name: Three.js, id: three, install: npm, role: browser-3D-WebGL, url: https://threejs.org/docs/}
+      - {name: PixiJS, id: pixi.js, install: npm, role: browser-2D-WebGL-WebGPU, url: https://pixijs.com/guides/components/renderers/}
+      - {name: Babylon.js, id: "@babylonjs/core", install: npm, role: browser-3D-alternative, url: https://doc.babylonjs.com/}
+      - {name: Vite, id: vite, install: npm, role: dev-server-and-bundler, url: https://vite.dev/}
+      - {name: vite-plugin-singlefile, id: vite-plugin-singlefile, install: npm, role: inlined-single-HTML-build-helper, url: https://www.npmjs.com/package/vite-plugin-singlefile, caveat: Not all public/static assets are automatically inlined; audit output}
+      - {name: Playwright, id: playwright, install: uv-or-npm, role: browser-automation-and-deterministic-screenshots, url: https://playwright.dev/}
+      - {name: HyperFrames, id: hyperframes, install: npm-or-local-cli, role: HTML-to-video-rendering, url: https://github.com/hyperframes/hyperframes}
+      - {name: Motion Canvas, id: motion-canvas, install: npm, role: TypeScript-motion-graphics-and-FFmpeg-export, url: https://motioncanvas.io/}
+      - {name: Remotion, id: remotion, install: npm, role: React-programmatic-video, url: https://www.remotion.dev/docs/license/pricing, license_warning: Review current individual/company/automation license terms}
+      - {name: Theatre.js, id: "@theatre/core", install: npm, role: editable-keyframe-authoring, url: https://www.theatrejs.com/docs/latest/manual/projects}
+      - {name: Lottie Web, id: lottie-web, install: npm, role: Lottie-animation-playback, url: https://github.com/airbnb/lottie-web}
+  restoration:
+    priority: P2
+    packages:
+      - {name: ProPainter, id: propainter, install: source-plus-checkpoint, role: temporal-video-inpainting, url: https://github.com/sczhou/ProPainter}
+      - {name: E2FGVI, id: e2fgvi, install: source-plus-checkpoint, role: flow-guided-video-inpainting, url: https://github.com/MCG-NKU/E2FGVI}
+      - {name: LaMa, id: lama, install: source-plus-checkpoint, role: image-inpainting, url: https://github.com/advimman/lama}
+      - {name: Real-ESRGAN, id: realesrgan, install: source-plus-checkpoint, role: super-resolution, url: https://github.com/xinntao/Real-ESRGAN}
+      - {name: RIFE, id: rife, install: source-plus-checkpoint, role: frame-interpolation-visualization-only, url: https://github.com/hzwer/ECCV2022-RIFE}
+  audio:
+    priority: P2
+    packages:
+      - {name: librosa, id: librosa, install: uv, role: onset-beat-spectral-feature-analysis, url: https://librosa.org/doc/latest/index.html}
+      - {name: Essentia, id: essentia, install: uv-or-source, role: music-information-retrieval, url: https://essentia.upf.edu/documentation.html, license_warning: AGPLv3 or separate proprietary terms}
+      - {name: faster-whisper, id: faster-whisper, install: uv, role: local-speech-recognition, url: https://github.com/SYSTRAN/faster-whisper}
+      - {name: pyannote.audio, id: pyannote-audio, install: uv-plus-model-access, role: speaker-diarization, url: https://github.com/pyannote/pyannote-audio}
+      - {name: torchaudio, id: torchaudio, install: torch-matched-wheel, role: PyTorch-audio-pipelines, url: https://pytorch.org/audio/stable/index.html}
+      - {name: Demucs, id: demucs, install: uv-or-source, role: audio-source-separation, url: https://github.com/facebookresearch/demucs}
+  data_and_orchestration:
+    priority: P1
+    packages:
+      - {name: Pydantic, id: pydantic, install: uv, role: Scene-IR-model-validation, url: https://docs.pydantic.dev/}
+      - {name: jsonschema, id: jsonschema, install: uv, role: JSON-Schema-validation, url: https://python-jsonschema.readthedocs.io/}
+      - {name: DuckDB, id: duckdb, install: uv, role: analytical-query-engine, url: https://duckdb.org/docs/}
+      - {name: PyArrow, id: pyarrow, install: uv, role: Parquet-and-columnar-data, url: https://arrow.apache.org/docs/python/}
+      - {name: Zarr, id: zarr, install: uv, role: chunked-array-cache, url: https://zarr.readthedocs.io/}
+      - {name: DVC, id: dvc, install: uv, role: data-and-pipeline-versioning, url: https://doc.dvc.org/}
+      - {name: MLflow, id: mlflow, install: uv, role: run-and-model-tracking, url: https://mlflow.org/docs/latest/}
+      - {name: Prefect, id: prefect, install: uv, role: Python-workflow-orchestration, url: https://docs.prefect.io/}
+      - {name: Ray, id: ray, install: uv, role: distributed-processing-and-inference, url: https://docs.ray.io/}
+      - {name: FastAPI, id: fastapi, install: uv, role: local-worker-API, url: https://fastapi.tiangolo.com/}
+      - {name: FiftyOne, id: fiftyone, install: uv, role: dataset-exploration-and-model-evaluation, url: https://docs.voxel51.com/}
+      - {name: CVAT, id: cvat, install: docker-compose, role: human-video-annotation, url: https://docs.cvat.ai/}
+      - {name: Label Studio, id: label-studio, install: uv-or-docker, role: human-review-and-annotation, url: https://labelstud.io/guide/install.html}
+      - {name: napari, id: napari, install: uv, role: image-mask-and-volume-inspection, url: https://napari.org/}
+  quality_and_security:
+    priority: P0
+    packages:
+      - {name: pytest, id: pytest, install: uv, role: Python-tests, url: https://docs.pytest.org/}
+      - {name: Hypothesis, id: hypothesis, install: uv, role: property-based-tests, url: https://hypothesis.readthedocs.io/}
+      - {name: Ruff, id: ruff, install: uv-or-pipx, role: lint-and-format, url: https://docs.astral.sh/ruff/}
+      - {name: mypy, id: mypy, install: uv, role: Python-static-types, url: https://mypy.readthedocs.io/}
+      - {name: pyright, id: pyright, install: npm-or-pip, role: Python-static-types, url: https://github.com/microsoft/pyright}
+      - {name: pip-audit, id: pip-audit, install: uv-or-pipx, role: Python-dependency-vulnerability-check, url: https://github.com/pypa/pip-audit}
+      - {name: OSV Scanner, id: osv-scanner, install: binary, role: dependency-vulnerability-check, url: https://github.com/google/osv-scanner}
+      - {name: Trivy, id: trivy, install: official-package, role: container-filesystem-vulnerability-scan, url: https://trivy.dev/}
+      - {name: Syft, id: syft, install: binary, role: SBOM-generation, url: https://github.com/anchore/syft}
+      - {name: Cosign, id: cosign, install: binary, role: artifact-signing, url: https://docs.sigstore.dev/cosign/}
+
+license_policy:
+  mandatory_fields: [code_license, model_weight_license, dataset_license, font_asset_license, redistribution_permission]
+  rule: >-
+    Review code, checkpoint, data and font licences independently. A model's source-code
+    license does not automatically grant unrestricted checkpoint or commercial rights.

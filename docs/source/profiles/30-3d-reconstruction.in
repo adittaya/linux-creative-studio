@@ -1,0 +1,11 @@
+# Install only in a dedicated 3D environment.
+# pycolmap/Open3D wheels must match the selected OS, Python and architecture.
+open3d
+pycolmap
+trimesh
+pymeshlab
+pyvista
+laspy
+scikit-learn
+# COLMAP executable, AliceVision/Meshroom and CloudCompare are separate native apps.
+# Blender uses its bundled Python and must not share this environment's bpy modules.

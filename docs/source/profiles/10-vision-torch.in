@@ -1,0 +1,15 @@
+# FIRST install torch + torchvision from https://pytorch.org/get-started/locally/
+# Select CUDA/ROCm/CPU according to the actual host driver and supported GPU.
+# Then install this profile in a separate Python environment.
+transformers
+accelerate
+safetensors
+huggingface-hub
+einops
+kornia
+timm
+torchmetrics
+supervision
+# Optional and potentially large:
+# lpips
+# open-clip-torch

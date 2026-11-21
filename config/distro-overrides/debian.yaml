@@ -1,8 +1,0 @@
-distro: debian
-method_priority: [distribution-package, official-portable-archive, flatpak, official-appimage]
-notes:
-  - "Use the exact stable release codename; do not mix testing/sid artifacts."
-  - "AppImage FUSE may require libfuse2 on older stable releases."
-  - "Flatpak from stable may lag upstream creative applications."
-  - "Never enable third-party repositories that replace core libraries."
-artifact_root: "offline-repo/apt/debian"

@@ -1,0 +1,132 @@
+[
+  {
+    "kind": "bundle",
+    "type": "apt-bundle",
+    "id": "apt-00-core-workstation",
+    "name": "apt-00-core-workstation",
+    "asset": "bundle-apt-00-core-workstation.zip",
+    "asset_sha256": "5f534536f1d928bffce3610e7df1720f020e57d40571032070d8e067dad0061f",
+    "asset_size": 1698,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-apt-00-core-workstation.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "apt-bundle",
+    "id": "apt-10-native-cv-media-build",
+    "name": "apt-10-native-cv-media-build",
+    "asset": "bundle-apt-10-native-cv-media-build.zip",
+    "asset_sha256": "155187b5cb2318935ad89833052a832f892e022630b76598db307c1965c0df38",
+    "asset_size": 1322,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-apt-10-native-cv-media-build.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "apt-bundle",
+    "id": "apt-20-vfx-colour-font-build",
+    "name": "apt-20-vfx-colour-font-build",
+    "asset": "bundle-apt-20-vfx-colour-font-build.zip",
+    "asset_sha256": "221bbd5f1e922ce507f9616139e86b73eb5d6a9bab2616027b30311418842965",
+    "asset_size": 1354,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-apt-20-vfx-colour-font-build.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "apt-bundle",
+    "id": "apt-30-colmap-3d-build",
+    "name": "apt-30-colmap-3d-build",
+    "asset": "bundle-apt-30-colmap-3d-build.zip",
+    "asset_sha256": "e147185bda6ecdb03085b1a72f318f9f5d39caa5725e6946a2b9a4d069c7faf3",
+    "asset_size": 1410,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-apt-30-colmap-3d-build.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-00-media-core",
+    "name": "profile-00-media-core",
+    "asset": "bundle-profile-00-media-core.zip",
+    "asset_sha256": "58592bd958fa7ac90767eb2f42a242fe19d189100f094b3f1060f767b267ff31",
+    "asset_size": 1181,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-00-media-core.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-10-vision-torch",
+    "name": "profile-10-vision-torch",
+    "asset": "bundle-profile-10-vision-torch.zip",
+    "asset_sha256": "b16ac88cec4bb80547b0f70d2eece36039b6c97cbff22a199c1d13d455d57eb0",
+    "asset_size": 1190,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-10-vision-torch.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-11-segmentation-tracking",
+    "name": "profile-11-segmentation-tracking",
+    "asset": "bundle-profile-11-segmentation-tracking.zip",
+    "asset_sha256": "1a8ed9423e031e6088f6276c1815c5ab0731d856d5cf6c043db701ed3e99afca",
+    "asset_size": 1344,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-11-segmentation-tracking.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-20-ocr-typography",
+    "name": "profile-20-ocr-typography",
+    "asset": "bundle-profile-20-ocr-typography.zip",
+    "asset_sha256": "b957fd4d873a4676b9137dc782fadf3e3c7291dcfc9875ff71b47f4250808a3e",
+    "asset_size": 1140,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-20-ocr-typography.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-30-3d-reconstruction",
+    "name": "profile-30-3d-reconstruction",
+    "asset": "bundle-profile-30-3d-reconstruction.zip",
+    "asset_sha256": "abe0f08cb5315b33dc01857196a62e6cd49f33093fdba36cd2ab422b19817cb5",
+    "asset_size": 1179,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-30-3d-reconstruction.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-40-audio-analysis",
+    "name": "profile-40-audio-analysis",
+    "asset": "bundle-profile-40-audio-analysis.zip",
+    "asset_sha256": "4da50356485535e5a7dd5fab0961d46fd766cc58820fb22b5f00ed818e9750f6",
+    "asset_size": 1107,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-40-audio-analysis.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-50-browser-qa",
+    "name": "profile-50-browser-qa",
+    "asset": "bundle-profile-50-browser-qa.zip",
+    "asset_sha256": "35cf2e737062ca2a2932b327c6f127c026b480818dd3f1a0b3f0a5fe7932d3cb",
+    "asset_size": 1023,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-50-browser-qa.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "python-profile",
+    "id": "profile-60-vfx-pipeline",
+    "name": "profile-60-vfx-pipeline",
+    "asset": "bundle-profile-60-vfx-pipeline.zip",
+    "asset_sha256": "2ff3b2c568703083effc9a99fd3ee9c8988ddcf9b2951101d8c78d37a4e67f10",
+    "asset_size": 1103,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-profile-60-vfx-pipeline.zip"
+  },
+  {
+    "kind": "bundle",
+    "type": "docs",
+    "id": "source-documentation",
+    "name": "source-documentation",
+    "asset": "bundle-source-documentation.zip",
+    "asset_sha256": "d6d9d6e50314015694c1089f65f5e93b6b6c0da1210c209db6b478c8a462c359",
+    "asset_size": 54646,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/bundle-source-documentation.zip"
+  }
+]

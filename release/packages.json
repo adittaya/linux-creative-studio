@@ -1,0 +1,2491 @@
+[
+  {
+    "kind": "package",
+    "id": "@babylonjs/core",
+    "name": "Babylon.js",
+    "safe_id": "babylonjs-core",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "browser-3D-alternative",
+    "url": "https://doc.babylonjs.com/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-babylonjs-core.zip",
+    "asset_sha256": "9d9ef5e3c8a2597a5187488c06c06c2cb95259e6d7732494e63fc09347ac873f",
+    "asset_size": 14157273,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-babylonjs-core.zip"
+  },
+  {
+    "kind": "package",
+    "id": "@theatre/core",
+    "name": "Theatre.js",
+    "safe_id": "theatre-core",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "editable-keyframe-authoring",
+    "url": "https://www.theatrejs.com/docs/latest/manual/projects",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-theatre-core.zip",
+    "asset_sha256": "5982d4b597ccc3d7742f47ed2eb30112508345e1e95cda00070f68afb3d61414",
+    "asset_size": 214978,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-theatre-core.zip"
+  },
+  {
+    "kind": "package",
+    "id": "alembic",
+    "name": "Alembic",
+    "safe_id": "alembic",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "animated-geometry-caches",
+    "url": "https://www.alembic.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-alembic.zip",
+    "asset_sha256": "8dde07bd092e1df648d0688dfc04eba08ec60cf0e13b0376337679b54b91fe2e",
+    "asset_size": 296480,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alembic.zip"
+  },
+  {
+    "kind": "package",
+    "id": "alicevision",
+    "name": "AliceVision",
+    "safe_id": "alicevision",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "release-or-source",
+    "role": "photogrammetry-pipeline",
+    "url": "https://github.com/alicevision/AliceVision",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-alicevision.zip",
+    "asset_sha256": "ba8d87fcf0acec3175169cafa8eac48e64da88deee03b9373e3ad199c2f31c3b",
+    "asset_size": 2726,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-alicevision.zip"
+  },
+  {
+    "kind": "package",
+    "id": "av",
+    "name": "PyAV",
+    "safe_id": "av",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "PTS-timebase-aware-decoding",
+    "url": "https://pyav.org/docs/stable/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-av.zip",
+    "asset_sha256": "9222b042eaf32de41e005e9803aed5657acea661c8d559655f4f27fe1d0f8cb9",
+    "asset_size": 34766260,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-av.zip"
+  },
+  {
+    "kind": "package",
+    "id": "blender",
+    "name": "Blender 5.3+",
+    "safe_id": "blender",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "official-Linux-release",
+    "role": "2D-2.5D-3D-camera-geometry-nodes-compositing-and-rendering",
+    "url": "https://www.blender.org/download/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-blender.zip",
+    "asset_sha256": "6fe7949f928189bf5932b730c5e5d902bfeab4415e894a41d0555d6601bf8909",
+    "asset_size": 2715,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-blender.zip"
+  },
+  {
+    "kind": "package",
+    "id": "bytetrack",
+    "name": "ByteTrack",
+    "safe_id": "bytetrack",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "detection-to-track-association",
+    "url": "https://github.com/ifzhang/ByteTrack",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-bytetrack.zip",
+    "asset_sha256": "8715b63f7caf740649b702d4ed1d9437ce9ff57329210ba269216d5bb7e50b37",
+    "asset_size": 2678,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-bytetrack.zip"
+  },
+  {
+    "kind": "package",
+    "id": "cairosvg",
+    "name": "CairoSVG",
+    "safe_id": "cairosvg",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "uv-plus-Cairo-libs",
+    "role": "SVG-raster-PDF-conversion",
+    "url": "https://cairosvg.org/documentation/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-cairosvg.zip",
+    "asset_sha256": "4481460a37fc43c3d3aeb311383124350d4e1bc60bc9f0cd072a1b9e4dfe1af4",
+    "asset_size": 47604,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cairosvg.zip"
+  },
+  {
+    "kind": "package",
+    "id": "cloudcompare",
+    "name": "CloudCompare",
+    "safe_id": "cloudcompare",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "appimage-or-source",
+    "role": "point-cloud-inspection",
+    "url": "https://www.cloudcompare.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-cloudcompare.zip",
+    "asset_sha256": "89082685698b3e2c9ef52ecab2d628442b45f141142df2ee525a5dd935ac4f77",
+    "asset_size": 2720,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cloudcompare.zip"
+  },
+  {
+    "kind": "package",
+    "id": "co-tracker",
+    "name": "CoTracker 3",
+    "safe_id": "co-tracker",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "dense-point-tracking",
+    "url": "https://github.com/facebookresearch/co-tracker",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-co-tracker.zip",
+    "asset_sha256": "da140f1af00050dae690ec0d689558a7b32529634de43561b75c68b093d6a037",
+    "asset_size": 2718,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-co-tracker.zip"
+  },
+  {
+    "kind": "package",
+    "id": "colmap",
+    "name": "COLMAP",
+    "safe_id": "colmap",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "apt-or-source",
+    "role": "structure-from-motion-and-multi-view-stereo",
+    "url": "https://colmap.github.io/install.html",
+    "license_warning": null,
+    "caveat": "Default distro builds may not enable CUDA or HIP",
+    "asset": "pkg-colmap.zip",
+    "asset_sha256": "1a5185077295a8bab85f717516a416b3faa05d50b46043ff81ef2251f6af3595",
+    "asset_size": 2293512,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-colmap.zip"
+  },
+  {
+    "kind": "package",
+    "id": "cosign",
+    "name": "Cosign",
+    "safe_id": "cosign",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "binary",
+    "role": "artifact-signing",
+    "url": "https://docs.sigstore.dev/cosign/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-cosign.zip",
+    "asset_sha256": "d241673d6d84da0259283f16a258aed1891bb624ababd2395397ec9c6c54e7b5",
+    "asset_size": 2554,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cosign.zip"
+  },
+  {
+    "kind": "package",
+    "id": "cvat",
+    "name": "CVAT",
+    "safe_id": "cvat",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "docker-compose",
+    "role": "human-video-annotation",
+    "url": "https://docs.cvat.ai/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-cvat.zip",
+    "asset_sha256": "fcfc042f3b0a3a76e45a03662b0a45fe06374afa2f332fcc2015e94c9d976cda",
+    "asset_size": 2532,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-cvat.zip"
+  },
+  {
+    "kind": "package",
+    "id": "demucs",
+    "name": "Demucs",
+    "safe_id": "demucs",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "uv-or-source",
+    "role": "audio-source-separation",
+    "url": "https://github.com/facebookresearch/demucs",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-demucs.zip",
+    "asset_sha256": "0697e88e1094304f160daa36dc216b78c5218729f1b3bd731f16856219a77284",
+    "asset_size": 99451,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-demucs.zip"
+  },
+  {
+    "kind": "package",
+    "id": "depth-anything-v2",
+    "name": "Depth Anything V2",
+    "safe_id": "depth-anything-v2",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "upstream-or-transformers",
+    "role": "monocular-relative-depth",
+    "url": "https://github.com/DepthAnything/Depth-Anything-V2",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-depth-anything-v2.zip",
+    "asset_sha256": "773e2b3178ccca7a8d15b5ab34efd6bb43315ded355d8b929f8cdb8b24de8b37",
+    "asset_size": 28343,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-depth-anything-v2.zip"
+  },
+  {
+    "kind": "package",
+    "id": "detectron2",
+    "name": "Detectron2",
+    "safe_id": "detectron2",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "instance-segmentation-detection-framework",
+    "url": "https://github.com/facebookresearch/detectron2",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-detectron2.zip",
+    "asset_sha256": "e55cdf5e5b661b2acced61edc4e8fc2a59b05aab4b892beb70f79108bacd7d17",
+    "asset_size": 2726,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-detectron2.zip"
+  },
+  {
+    "kind": "package",
+    "id": "dinov3",
+    "name": "DINOv3",
+    "safe_id": "dinov3",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "transformers-or-upstream",
+    "role": "visual-feature-extraction",
+    "url": "https://github.com/facebookresearch/dinov3",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-dinov3.zip",
+    "asset_sha256": "fe4f9176c2927e79cf953dce3da7e2e61a26b7498c8539eda2dc10229c5d34f9",
+    "asset_size": 2664,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dinov3.zip"
+  },
+  {
+    "kind": "package",
+    "id": "duckdb",
+    "name": "DuckDB",
+    "safe_id": "duckdb",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "analytical-query-engine",
+    "url": "https://duckdb.org/docs/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-duckdb.zip",
+    "asset_sha256": "cebf9961e2665655167fb46d2891b91e95aea94a417e85569e6afb7d0f7997ac",
+    "asset_size": 24860619,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-duckdb.zip"
+  },
+  {
+    "kind": "package",
+    "id": "dvc",
+    "name": "DVC",
+    "safe_id": "dvc",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "data-and-pipeline-versioning",
+    "url": "https://doc.dvc.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-dvc.zip",
+    "asset_sha256": "32420877c3fb60c36a547b6c07d8df35c289e993086eb166f43c68c791cdab04",
+    "asset_size": 449314,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-dvc.zip"
+  },
+  {
+    "kind": "package",
+    "id": "e2fgvi",
+    "name": "E2FGVI",
+    "safe_id": "e2fgvi",
+    "capabilities": [
+      "restoration"
+    ],
+    "priority": "P2",
+    "install": "source-plus-checkpoint",
+    "role": "flow-guided-video-inpainting",
+    "url": "https://github.com/MCG-NKU/E2FGVI",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-e2fgvi.zip",
+    "asset_sha256": "502aba132c08d3008158f994efaabcfa3476df1027ee000ed3eb3ab85659a242",
+    "asset_size": 2650,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-e2fgvi.zip"
+  },
+  {
+    "kind": "package",
+    "id": "essentia",
+    "name": "Essentia",
+    "safe_id": "essentia",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "uv-or-source",
+    "role": "music-information-retrieval",
+    "url": "https://essentia.upf.edu/documentation.html",
+    "license_warning": "AGPLv3 or separate proprietary terms",
+    "caveat": null,
+    "asset": "pkg-essentia.zip",
+    "asset_sha256": "04ac09e66f44b69cff0241f5c2c82c782e5e0833d3bc90856ce16224b2919d4f",
+    "asset_size": 13997683,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-essentia.zip"
+  },
+  {
+    "kind": "package",
+    "id": "fastapi",
+    "name": "FastAPI",
+    "safe_id": "fastapi",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "local-worker-API",
+    "url": "https://fastapi.tiangolo.com/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-fastapi.zip",
+    "asset_sha256": "3d9f3e6b497bf77441383ffa802687e9736038aeb537733cccf6421537e3746e",
+    "asset_size": 156189,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastapi.zip"
+  },
+  {
+    "kind": "package",
+    "id": "faster-whisper",
+    "name": "faster-whisper",
+    "safe_id": "faster-whisper",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "uv",
+    "role": "local-speech-recognition",
+    "url": "https://github.com/SYSTRAN/faster-whisper",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-faster-whisper.zip",
+    "asset_sha256": "e50db97815a2e9ef2d0ad2bd6798d3503d69adca71f58028dd84175e9c398f10",
+    "asset_size": 1097250,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-faster-whisper.zip"
+  },
+  {
+    "kind": "package",
+    "id": "fastsam",
+    "name": "FastSAM",
+    "safe_id": "fastsam",
+    "capabilities": [
+      "segmentation"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "fast-segmentation-alternative",
+    "url": "https://github.com/CASIA-IVA-Lab/FastSAM",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-fastsam.zip",
+    "asset_sha256": "64ab19594125cd94846373d7254f13b2e8f6406a939b237c7c0b59123d18a91d",
+    "asset_size": 2657,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fastsam.zip"
+  },
+  {
+    "kind": "package",
+    "id": "ffmpeg",
+    "name": "FFmpeg",
+    "safe_id": "ffmpeg",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt-or-upstream",
+    "role": "demux-decode-encode-filter",
+    "url": "https://ffmpeg.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-ffmpeg.zip",
+    "asset_sha256": "f5cbbeea0124ee087deaf0fc8935b1c3941f3eb88159e26b3a6f3afd8f9c4c31",
+    "asset_size": 1882105,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ffmpeg.zip"
+  },
+  {
+    "kind": "package",
+    "id": "fiftyone",
+    "name": "FiftyOne",
+    "safe_id": "fiftyone",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "dataset-exploration-and-model-evaluation",
+    "url": "https://docs.voxel51.com/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-fiftyone.zip",
+    "asset_sha256": "62dac981d9a05a049d603ab06df3e1ef6f9c2b1b914ecdbc46670325177df632",
+    "asset_size": 23833087,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fiftyone.zip"
+  },
+  {
+    "kind": "package",
+    "id": "filterpy",
+    "name": "filterpy",
+    "safe_id": "filterpy",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "Kalman-filtering",
+    "url": "https://github.com/rlabbe/filterpy",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-filterpy.zip",
+    "asset_sha256": "15548fe4a93764bcadd757e5c3039b7e19947164c774fe0a7cbcc9550637ff1f",
+    "asset_size": 111091,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-filterpy.zip"
+  },
+  {
+    "kind": "package",
+    "id": "florence-2",
+    "name": "Florence-2",
+    "safe_id": "florence-2",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "transformers-model",
+    "role": "visual-grounding-and-image-understanding",
+    "url": "https://huggingface.co/microsoft/Florence-2-large",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-florence-2.zip",
+    "asset_sha256": "29b1bfdf11535495d1d0f407daaff6f21edf1090f1e9da7dbfab8fbdef29c56b",
+    "asset_size": 2883,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-florence-2.zip"
+  },
+  {
+    "kind": "package",
+    "id": "flowformer",
+    "name": "FlowFormer",
+    "safe_id": "flowformer",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "advanced-optical-flow",
+    "url": "https://github.com/drinkingcoder/FlowFormer-Official",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-flowformer.zip",
+    "asset_sha256": "531ab736b7cf508324c48e6efce95840462f1de6e305b0a10c0c6b77f95d2b24",
+    "asset_size": 2741,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-flowformer.zip"
+  },
+  {
+    "kind": "package",
+    "id": "fonttools",
+    "name": "FontTools",
+    "safe_id": "fonttools",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "font-metadata-and-glyph-outlines",
+    "url": "https://fonttools.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-fonttools.zip",
+    "asset_sha256": "7515cb459c112a0d9c2114dcf260b570f9e5f2cb26f5e77994f4fd20154a3cb5",
+    "asset_size": 5308702,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-fonttools.zip"
+  },
+  {
+    "kind": "package",
+    "id": "gimp",
+    "name": "GIMP",
+    "safe_id": "gimp",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "apt-or-Flatpak",
+    "role": "raster-retouching-and-masks",
+    "url": "https://www.gimp.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-gimp.zip",
+    "asset_sha256": "b6a0df695bee4537c5d46fd398ca80400daa0774318053fdc4bf50939d32206b",
+    "asset_size": 2525,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gimp.zip"
+  },
+  {
+    "kind": "package",
+    "id": "gmflow",
+    "name": "GMFlow",
+    "safe_id": "gmflow",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "learned-optical-flow-alternative",
+    "url": "https://github.com/haofeixu/gmflow",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-gmflow.zip",
+    "asset_sha256": "b5e4839ab3f08834fb3b81fede9436a329b56d13c3707b341a8942d9a08fe0ec",
+    "asset_size": 2623,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gmflow.zip"
+  },
+  {
+    "kind": "package",
+    "id": "groundingdino",
+    "name": "Grounding DINO",
+    "safe_id": "groundingdino",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "open-vocabulary-box-detection",
+    "url": "https://github.com/IDEA-Research/GroundingDINO",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-groundingdino.zip",
+    "asset_sha256": "cf665364db0a684d675d0699fe0c6098feaccdd8606d0b7f7616a36c27379b4a",
+    "asset_size": 2812,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-groundingdino.zip"
+  },
+  {
+    "kind": "package",
+    "id": "gsap",
+    "name": "GSAP",
+    "safe_id": "gsap",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "motion-timeline-and-easing",
+    "url": "https://gsap.com/docs/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-gsap.zip",
+    "asset_sha256": "9f0cf92302e465593d7e250702e8efeca5e1d7a7a086378d8ee8fc21961dcdb2",
+    "asset_size": 1704937,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsap.zip"
+  },
+  {
+    "kind": "package",
+    "id": "gsplat",
+    "name": "gsplat",
+    "safe_id": "gsplat",
+    "capabilities": [
+      "neural_3d"
+    ],
+    "priority": "P2",
+    "install": "uv-plus-torch-and-CUDA-extension",
+    "role": "CUDA-Gaussian-splatting",
+    "url": "https://github.com/nerfstudio-project/gsplat",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-gsplat.zip",
+    "asset_sha256": "b2d1be992c37c8d99805d11296a0de365549a148e8275ce59a4f5fab431cfeba",
+    "asset_size": 6109103,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gsplat.zip"
+  },
+  {
+    "kind": "package",
+    "id": "gstreamer1.0",
+    "name": "GStreamer",
+    "safe_id": "gstreamer1.0",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt-and-plugins",
+    "role": "streaming-pipelines-and-hardware-codecs",
+    "url": "https://gstreamer.freedesktop.org/documentation/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-gstreamer1.0.zip",
+    "asset_sha256": "d5529ea2f94acee5519148d4f8e49ffdc0dad58eba53c6d8a943898cee877986",
+    "asset_size": 9301231,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-gstreamer1.0.zip"
+  },
+  {
+    "kind": "package",
+    "id": "hloc",
+    "name": "hloc",
+    "safe_id": "hloc",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "hierarchical-localization-feature-matching",
+    "url": "https://github.com/cvg/Hierarchical-Localization",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-hloc.zip",
+    "asset_sha256": "0ebfccaf3de0eb157963ca5052cdee673168c672d9b6ce2e4cff651c1b5aa539",
+    "asset_size": 2636,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hloc.zip"
+  },
+  {
+    "kind": "package",
+    "id": "hyperframes",
+    "name": "HyperFrames",
+    "safe_id": "hyperframes",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm-or-local-cli",
+    "role": "HTML-to-video-rendering",
+    "url": "https://github.com/hyperframes/hyperframes",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-hyperframes.zip",
+    "asset_sha256": "ee94e2feba02abc7dd46d2af34e65fe78f4ca71cdfecfb4601729f9cc996d405",
+    "asset_size": 8401547,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hyperframes.zip"
+  },
+  {
+    "kind": "package",
+    "id": "hypothesis",
+    "name": "Hypothesis",
+    "safe_id": "hypothesis",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "property-based-tests",
+    "url": "https://hypothesis.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-hypothesis.zip",
+    "asset_sha256": "61cf1c780e78a486adaff4e8c0b18bdee402eca013a34bd16791cb96be546f73",
+    "asset_size": 1162080,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-hypothesis.zip"
+  },
+  {
+    "kind": "package",
+    "id": "inkscape",
+    "name": "Inkscape",
+    "safe_id": "inkscape",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "apt-or-official",
+    "role": "SVG-vector-authoring",
+    "url": "https://inkscape.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-inkscape.zip",
+    "asset_sha256": "a7b05628e0de9a0da11383f76d1123d6575ee3cb804b4c21a22c38b5ceba99c4",
+    "asset_size": 21489810,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-inkscape.zip"
+  },
+  {
+    "kind": "package",
+    "id": "instant-ngp",
+    "name": "instant-ngp",
+    "safe_id": "instant-ngp",
+    "capabilities": [
+      "neural_3d"
+    ],
+    "priority": "P2",
+    "install": "source-CUDA-CMake",
+    "role": "neural-graphics-primitives",
+    "url": "https://github.com/NVlabs/instant-ngp",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-instant-ngp.zip",
+    "asset_sha256": "634cae3d8b6c6c31fb10668d506ae8fce16938e9053cda049da2e1ef645b5b95",
+    "asset_size": 2711,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-instant-ngp.zip"
+  },
+  {
+    "kind": "package",
+    "id": "jsonschema",
+    "name": "jsonschema",
+    "safe_id": "jsonschema",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "JSON-Schema-validation",
+    "url": "https://python-jsonschema.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-jsonschema.zip",
+    "asset_sha256": "b5c50046ed1d2ff1994845518b6149e0463c31caef2c624e2a802cd02249561d",
+    "asset_size": 90073,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-jsonschema.zip"
+  },
+  {
+    "kind": "package",
+    "id": "krita",
+    "name": "Krita",
+    "safe_id": "krita",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "AppImage-or-Flatpak",
+    "role": "painting-raster-and-frame-animation",
+    "url": "https://krita.org/en/download/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-krita.zip",
+    "asset_sha256": "e8cf9ab936937672f29bac8c71e26445d10644ee38f82a9e049e47b72bf928a2",
+    "asset_size": 2592,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-krita.zip"
+  },
+  {
+    "kind": "package",
+    "id": "label-studio",
+    "name": "Label Studio",
+    "safe_id": "label-studio",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv-or-docker",
+    "role": "human-review-and-annotation",
+    "url": "https://labelstud.io/guide/install.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-label-studio.zip",
+    "asset_sha256": "0aade05818d33996885065e86ba1a22a40b72a18a2f46175eea531bfb046ced1",
+    "asset_size": 72665172,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-label-studio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "lama",
+    "name": "LaMa",
+    "safe_id": "lama",
+    "capabilities": [
+      "restoration"
+    ],
+    "priority": "P2",
+    "install": "source-plus-checkpoint",
+    "role": "image-inpainting",
+    "url": "https://github.com/advimman/lama",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-lama.zip",
+    "asset_sha256": "c23159fd71f4b11a699662db9af94edfe17bd571e4f143cd1c6e553b8bf16b89",
+    "asset_size": 2561,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lama.zip"
+  },
+  {
+    "kind": "package",
+    "id": "libimage-exiftool-perl",
+    "name": "ExifTool",
+    "safe_id": "libimage-exiftool-perl",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt",
+    "role": "asset-metadata",
+    "url": "https://exiftool.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-libimage-exiftool-perl.zip",
+    "asset_sha256": "38ac574f7ef47d29c782153ac8d22ff705e2a155a7d7ba0c85900a6f019fa395",
+    "asset_size": 3904457,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libimage-exiftool-perl.zip"
+  },
+  {
+    "kind": "package",
+    "id": "libplacebo",
+    "name": "libplacebo",
+    "safe_id": "libplacebo",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt-or-source",
+    "role": "shader-based-scaling-and-tonemapping",
+    "url": "https://github.com/haasn/libplacebo",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-libplacebo.zip",
+    "asset_sha256": "334ebe0aaf7bd25a9652b450f1bc9e19bf1bf39a7708c9b56b025cfb2bef1ae1",
+    "asset_size": 2669,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-libplacebo.zip"
+  },
+  {
+    "kind": "package",
+    "id": "librosa",
+    "name": "librosa",
+    "safe_id": "librosa",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "uv",
+    "role": "onset-beat-spectral-feature-analysis",
+    "url": "https://librosa.org/doc/latest/index.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-librosa.zip",
+    "asset_sha256": "1c590b565c8b671d4943665adef88f9f2c11ba2ad1f7dbfddeb16afe02a3488a",
+    "asset_size": 301227,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-librosa.zip"
+  },
+  {
+    "kind": "package",
+    "id": "lightglue",
+    "name": "LightGlue",
+    "safe_id": "lightglue",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "learned-feature-matching",
+    "url": "https://github.com/cvg/LightGlue",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-lightglue.zip",
+    "asset_sha256": "bfdfa39fe747b9b47a8252fa8024033c57517a0e02c534684a8f856dba2f9fbf",
+    "asset_size": 2678,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lightglue.zip"
+  },
+  {
+    "kind": "package",
+    "id": "lottie-web",
+    "name": "Lottie Web",
+    "safe_id": "lottie-web",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "Lottie-animation-playback",
+    "url": "https://github.com/airbnb/lottie-web",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-lottie-web.zip",
+    "asset_sha256": "191a70ea50f63e7dc626f47bae69c4ba621f94673aff6ae11f487542ceb17e17",
+    "asset_size": 4634948,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-lottie-web.zip"
+  },
+  {
+    "kind": "package",
+    "id": "manifold3d",
+    "name": "manifold3d",
+    "safe_id": "manifold3d",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "robust-mesh-booleans",
+    "url": "https://github.com/elalish/manifold",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-manifold3d.zip",
+    "asset_sha256": "414389fc7d09cb94a48976680d6e5e72b0f7d2b443bce9ef0f8117b1e471bd85",
+    "asset_size": 1341638,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-manifold3d.zip"
+  },
+  {
+    "kind": "package",
+    "id": "materialx",
+    "name": "MaterialX",
+    "safe_id": "materialx",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "source-or-compatible-package",
+    "role": "material-lookdev-interchange",
+    "url": "https://materialx.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-materialx.zip",
+    "asset_sha256": "30669b2b55efcefdbf498a7b614096a4a9101e677d179936bb73f5e438b091f3",
+    "asset_size": 2655,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-materialx.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mediainfo",
+    "name": "MediaInfo",
+    "safe_id": "mediainfo",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt",
+    "role": "secondary-media-metadata",
+    "url": "https://mediaarea.net/MediaInfo",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mediainfo.zip",
+    "asset_sha256": "6b56dc8b5f9fc9ac7d1b8729c900268d239417763133a40188c1d7c7a7d26d49",
+    "asset_size": 30627,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mediainfo.zip"
+  },
+  {
+    "kind": "package",
+    "id": "meshlab",
+    "name": "MeshLab",
+    "safe_id": "meshlab",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "apt-or-appimage",
+    "role": "mesh-inspection-and-cleanup",
+    "url": "https://www.meshlab.net/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-meshlab.zip",
+    "asset_sha256": "55a4ef9666ac64b035e3441da099463e08bd1346cf846333e856c67dcd048f37",
+    "asset_size": 5196750,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshlab.zip"
+  },
+  {
+    "kind": "package",
+    "id": "meshroom",
+    "name": "Meshroom",
+    "safe_id": "meshroom",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "release-plus-alicevision",
+    "role": "photogrammetry-GUI",
+    "url": "https://meshroom.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-meshroom.zip",
+    "asset_sha256": "906bacfc8d82a14546cc7780c7f53084a63934bc9c8bfdb8df5b48a7e855b5db",
+    "asset_size": 2670,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-meshroom.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mitsuba",
+    "name": "Mitsuba 3",
+    "safe_id": "mitsuba",
+    "capabilities": [
+      "neural_3d"
+    ],
+    "priority": "P2",
+    "install": "uv",
+    "role": "differentiable-forward-inverse-light-transport",
+    "url": "https://mitsuba.readthedocs.io/en/stable/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mitsuba.zip",
+    "asset_sha256": "09916609c798afbd28ad5a81a2257d546c4ac0d370b16490e24da7f1b9dad4c3",
+    "asset_size": 61995584,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mitsuba.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mlflow",
+    "name": "MLflow",
+    "safe_id": "mlflow",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "run-and-model-tracking",
+    "url": "https://mlflow.org/docs/latest/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mlflow.zip",
+    "asset_sha256": "7a74e35d120b5714b6cc27b50fb4751815c49838a1082d5c97bac70906da6de9",
+    "asset_size": 12390513,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mlflow.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mmdet",
+    "name": "MMDetection",
+    "safe_id": "mmdet",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "uv-or-mim",
+    "role": "detector-research-framework",
+    "url": "https://mmdetection.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mmdet.zip",
+    "asset_sha256": "5184c1a380611ff79a813e2d86a7388cc398154db546dd5c44d59b5918017c7f",
+    "asset_size": 2013471,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mmdet.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mobile-sam",
+    "name": "MobileSAM",
+    "safe_id": "mobile-sam",
+    "capabilities": [
+      "segmentation"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "lightweight-promptable-segmentation",
+    "url": "https://github.com/ChaoningZhang/MobileSAM",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mobile-sam.zip",
+    "asset_sha256": "05faffc6cfefaf5d340fd91184e8a9cf1f2e7b0a73cebeaf8eb72b120fd5828f",
+    "asset_size": 2720,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mobile-sam.zip"
+  },
+  {
+    "kind": "package",
+    "id": "motion-canvas",
+    "name": "Motion Canvas",
+    "safe_id": "motion-canvas",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "TypeScript-motion-graphics-and-FFmpeg-export",
+    "url": "https://motioncanvas.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-motion-canvas.zip",
+    "asset_sha256": "d1faa719697d2be723c56ed9a3d1a859e22bd2cc4c56aff5aca16b6f0c108c02",
+    "asset_size": 2939,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motion-canvas.zip"
+  },
+  {
+    "kind": "package",
+    "id": "motmetrics",
+    "name": "motmetrics",
+    "safe_id": "motmetrics",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "multi-object-tracking-evaluation",
+    "url": "https://github.com/cheind/py-motmetrics",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-motmetrics.zip",
+    "asset_sha256": "16dcbab3f4e58448846f40bc3cb65659a2436ab7c23e4f12128a22b1fdfe5630",
+    "asset_size": 161920,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-motmetrics.zip"
+  },
+  {
+    "kind": "package",
+    "id": "mypy",
+    "name": "mypy",
+    "safe_id": "mypy",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "Python-static-types",
+    "url": "https://mypy.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-mypy.zip",
+    "asset_sha256": "cc7c27f8d15f46f8c4b13870cc239eed8173b7ac0a4fe2d3e66f3bd862ddbe05",
+    "asset_size": 15114235,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-mypy.zip"
+  },
+  {
+    "kind": "package",
+    "id": "napari",
+    "name": "napari",
+    "safe_id": "napari",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "image-mask-and-volume-inspection",
+    "url": "https://napari.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-napari.zip",
+    "asset_sha256": "ad4710882ee05b688fd7bac9c5a85c20d82edb6b6f1d4e7b3233c39a27e7c82c",
+    "asset_size": 3671855,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-napari.zip"
+  },
+  {
+    "kind": "package",
+    "id": "natron",
+    "name": "Natron",
+    "safe_id": "natron",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "Flatpak-or-release",
+    "role": "node-compositing-OpenFX",
+    "url": "https://github.com/NatronGitHub/Natron",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-natron.zip",
+    "asset_sha256": "7350d24c57d28cf636b1228719e5cf02ada0d93f59f967f32f9b3cc738f240c8",
+    "asset_size": 2636,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-natron.zip"
+  },
+  {
+    "kind": "package",
+    "id": "nerfacc",
+    "name": "nerfacc",
+    "safe_id": "nerfacc",
+    "capabilities": [
+      "neural_3d"
+    ],
+    "priority": "P2",
+    "install": "source-or-wheel",
+    "role": "accelerated-NeRF-rendering",
+    "url": "https://github.com/nerfstudio-project/nerfacc",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-nerfacc.zip",
+    "asset_sha256": "cbc09501f5ec89bdea066e21b41d05412baf6b2eabc644f3bfe48e2e6c393bfe",
+    "asset_size": 2649,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfacc.zip"
+  },
+  {
+    "kind": "package",
+    "id": "nerfstudio",
+    "name": "Nerfstudio",
+    "safe_id": "nerfstudio",
+    "capabilities": [
+      "neural_3d"
+    ],
+    "priority": "P2",
+    "install": "micromamba-or-uv-plus-torch",
+    "role": "NeRF-and-Gaussian-splat-workflows",
+    "url": "https://docs.nerf.studio/quickstart/installation.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-nerfstudio.zip",
+    "asset_sha256": "babfdb32d0c437cc12b00869c5b219aeb076951e6fe1023138583061d4907fdd",
+    "asset_size": 2768,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nerfstudio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "nodejs",
+    "name": "Node.js 26 LTS",
+    "safe_id": "nodejs",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "version-manager-or-official",
+    "role": "JavaScript-runtime",
+    "url": "https://nodejs.org/en/about/previous-releases",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-nodejs.zip",
+    "asset_sha256": "10a96b5a050dff957d0817b6513bd540ca48e7c73caf89a1d725da927c601ddb",
+    "asset_size": 2691,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-nodejs.zip"
+  },
+  {
+    "kind": "package",
+    "id": "norfair",
+    "name": "Norfair",
+    "safe_id": "norfair",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "configurable-tracking",
+    "url": "https://github.com/tryolabs/norfair",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-norfair.zip",
+    "asset_sha256": "2e9bfcaafd1dd0e253114745f3bad2e375264504e1db1341f0b951cd34528172",
+    "asset_size": 57605,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-norfair.zip"
+  },
+  {
+    "kind": "package",
+    "id": "numpy",
+    "name": "NumPy",
+    "safe_id": "numpy",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "array-computation",
+    "url": "https://numpy.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-numpy.zip",
+    "asset_sha256": "86ab86dce65163594005e40ed99cf509b68716fff67eca55afa38a0af507bf2f",
+    "asset_size": 15518595,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-numpy.zip"
+  },
+  {
+    "kind": "package",
+    "id": "open3d",
+    "name": "Open3D",
+    "safe_id": "open3d",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv-wheel-or-source",
+    "role": "point-cloud-registration-ICP-TSDF-mesh",
+    "url": "https://www.open3d.org/docs/latest/getting_started.html",
+    "license_warning": null,
+    "caveat": "Current wheels explicitly support Ubuntu 22.04+; verify Debian wheel or build from source",
+    "asset": "pkg-open3d.zip",
+    "asset_sha256": "c06f236d7e764a0070546ac109c631918b52806f5f2b98b52b8106f413bdee7b",
+    "asset_size": 389794962,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-open3d.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opencolorio",
+    "name": "OpenColorIO",
+    "safe_id": "opencolorio",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "colour-management",
+    "url": "https://opencolorio.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opencolorio.zip",
+    "asset_sha256": "23b29650d89d3ae104e6aad04e6ea1ac506a76114e182a3b573e7b325b67b546",
+    "asset_size": 2669,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencolorio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opencv-contrib-python-headless",
+    "name": "OpenCV contrib",
+    "safe_id": "opencv-contrib-python-headless",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv-or-source",
+    "role": "tracking-flow-calibration-contours",
+    "url": "https://opencv.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opencv-contrib-python-headless.zip",
+    "asset_sha256": "2d5689e1ac6a9a088e4063da558759cb930345a87662b354f3f122c3babda72a",
+    "asset_size": 72984222,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-contrib-python-headless.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opencv-dis",
+    "name": "DIS Optical Flow",
+    "safe_id": "opencv-dis",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "opencv",
+    "role": "fast-classical-dense-flow",
+    "url": "https://docs.opencv.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opencv-dis.zip",
+    "asset_sha256": "d20c72727d5c5aa97b8a7c59577ed251a3177cfeea06157ab3df12a3582341bd",
+    "asset_size": 2638,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opencv-dis.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openexr",
+    "name": "OpenEXR",
+    "safe_id": "openexr",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "HDR-and-multilayer-frame-interchange",
+    "url": "https://openexr.com/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openexr.zip",
+    "asset_sha256": "5cb5fb3bff3060e20189a48fba87b06d58cca5b518959b3a2fdd6683abf18b2c",
+    "asset_size": 103946,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openexr.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openimageio",
+    "name": "OpenImageIO",
+    "safe_id": "openimageio",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "high-dynamic-range-image-I-O",
+    "url": "https://github.com/AcademySoftwareFoundation/OpenImageIO",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openimageio.zip",
+    "asset_sha256": "27bebb8552d2c2758bf010b55af01fb82f2467cc4239382454e5511b334e4ece",
+    "asset_size": 2796,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openimageio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openmvg",
+    "name": "OpenMVG",
+    "safe_id": "openmvg",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "source",
+    "role": "structure-from-motion",
+    "url": "https://github.com/openMVG/openMVG",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openmvg.zip",
+    "asset_sha256": "405b78d84782487cae6f7118662ec416ffc51c4a980bcaf1cfc71ce61b0b8031",
+    "asset_size": 2614,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvg.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openmvs",
+    "name": "OpenMVS",
+    "safe_id": "openmvs",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "source",
+    "role": "dense-mvs-mesh-and-texturing",
+    "url": "https://github.com/cdcseacave/openMVS",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openmvs.zip",
+    "asset_sha256": "c72dd3d31a9d99ade574282a08a34cb00b4e2f0e334b758fa5e0f8f41387d244",
+    "asset_size": 2656,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openmvs.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opensubdiv",
+    "name": "OpenSubdiv",
+    "safe_id": "opensubdiv",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "subdivision-surface",
+    "url": "https://opensubdiv.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opensubdiv.zip",
+    "asset_sha256": "2aaf87db06256200945eb9a4c56518664db958ea0e0b6c2e9bbe7be04cf839cf",
+    "asset_size": 2639,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opensubdiv.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opentimelineio",
+    "name": "OpenTimelineIO",
+    "safe_id": "opentimelineio",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "editorial-timeline-interchange",
+    "url": "https://opentimeline.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opentimelineio.zip",
+    "asset_sha256": "b29c0619e6182dd4f746594f01ec22c76276ad4ff04f017e72cdc01983f8b648",
+    "asset_size": 2769566,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentimelineio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "opentoonz",
+    "name": "OpenToonz",
+    "safe_id": "opentoonz",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "official-release-or-supported-package",
+    "role": "2D-animation",
+    "url": "https://github.com/opentoonz/opentoonz",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-opentoonz.zip",
+    "asset_sha256": "b9ff848ab58c726a53a7b9e932321d66221480211ece7b1d7ebafcbc5e201c7e",
+    "asset_size": 2687,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-opentoonz.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openusd",
+    "name": "OpenUSD",
+    "safe_id": "openusd",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "source-or-compatible-binary",
+    "role": "scene-description-and-interchange",
+    "url": "https://github.com/PixarAnimationStudios/OpenUSD",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openusd.zip",
+    "asset_sha256": "a3d56aee812c95196a889e3fd76651cee7718fe7e8e19d168d5efaba84a69ace",
+    "asset_size": 2727,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openusd.zip"
+  },
+  {
+    "kind": "package",
+    "id": "openvdb",
+    "name": "OpenVDB",
+    "safe_id": "openvdb",
+    "capabilities": [
+      "blender_and_vfx"
+    ],
+    "priority": "P0_if_3d",
+    "install": "apt-or-source",
+    "role": "sparse-volumes",
+    "url": "https://www.openvdb.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-openvdb.zip",
+    "asset_sha256": "67f7c0055dc7e7f03d371068d0002ebd9c84a3037f23e7bf8080dd9da3d57492",
+    "asset_size": 2590,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-openvdb.zip"
+  },
+  {
+    "kind": "package",
+    "id": "osv-scanner",
+    "name": "OSV Scanner",
+    "safe_id": "osv-scanner",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "binary",
+    "role": "dependency-vulnerability-check",
+    "url": "https://github.com/google/osv-scanner",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-osv-scanner.zip",
+    "asset_sha256": "c5f77a968f5c90c1fcb7463edd7bf444913cfa51fe1895c3e5a7d414942710ad",
+    "asset_size": 2700,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-osv-scanner.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pencil2d",
+    "name": "Pencil2D",
+    "safe_id": "pencil2d",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "apt-or-official",
+    "role": "hand-drawn-animation",
+    "url": "https://www.pencil2d.org/download/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pencil2d.zip",
+    "asset_sha256": "66ec695c30d2b71fcf84c69798f57248bf8c08bd37f31a53e793d15f37b114f1",
+    "asset_size": 1649175,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pencil2d.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pillow",
+    "name": "Pillow",
+    "safe_id": "pillow",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "raster-processing",
+    "url": "https://pillow.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pillow.zip",
+    "asset_sha256": "75ff58baa25ba2f6fe93e648f387462bd99c0811de1a242fcfb4f8429698678a",
+    "asset_size": 7104237,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pillow.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pip-audit",
+    "name": "pip-audit",
+    "safe_id": "pip-audit",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "uv-or-pipx",
+    "role": "Python-dependency-vulnerability-check",
+    "url": "https://github.com/pypa/pip-audit",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pip-audit.zip",
+    "asset_sha256": "675b83e1b08c3787445559d3416577754eb173f6655e77f064db43b04aa9f071",
+    "asset_size": 62499,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pip-audit.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pixi.js",
+    "name": "PixiJS",
+    "safe_id": "pixi.js",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "browser-2D-WebGL-WebGPU",
+    "url": "https://pixijs.com/guides/components/renderers/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pixi.js.zip",
+    "asset_sha256": "8f30cef79667102e3df313dd9d01a77074da098efce9edfd4a3a1ab1566a1fbc",
+    "asset_size": 16695166,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pixi.js.zip"
+  },
+  {
+    "kind": "package",
+    "id": "playwright",
+    "name": "Playwright",
+    "safe_id": "playwright",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "uv-or-npm",
+    "role": "browser-automation-and-deterministic-screenshots",
+    "url": "https://playwright.dev/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-playwright.zip",
+    "asset_sha256": "d558eb6ff1df130cce7ddc878bd9645a12da6337ad4c0f92c346dcd06439c8c2",
+    "asset_size": 913044,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-playwright.zip"
+  },
+  {
+    "kind": "package",
+    "id": "prefect",
+    "name": "Prefect",
+    "safe_id": "prefect",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "Python-workflow-orchestration",
+    "url": "https://docs.prefect.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-prefect.zip",
+    "asset_sha256": "c806d6d14dc7ec48ae2911605c975add01abf7192b4322a43f2e10e5690bf4ec",
+    "asset_size": 6860128,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-prefect.zip"
+  },
+  {
+    "kind": "package",
+    "id": "propainter",
+    "name": "ProPainter",
+    "safe_id": "propainter",
+    "capabilities": [
+      "restoration"
+    ],
+    "priority": "P2",
+    "install": "source-plus-checkpoint",
+    "role": "temporal-video-inpainting",
+    "url": "https://github.com/sczhou/ProPainter",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-propainter.zip",
+    "asset_sha256": "873953d4b309d6e4341afcddb00b4b5f7a41a89107d60f63322320adc5783d06",
+    "asset_size": 2697,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-propainter.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pyannote-audio",
+    "name": "pyannote.audio",
+    "safe_id": "pyannote-audio",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "uv-plus-model-access",
+    "role": "speaker-diarization",
+    "url": "https://github.com/pyannote/pyannote-audio",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pyannote-audio.zip",
+    "asset_sha256": "c2a9ab8af5845e27000781c55f5e75d0e67178639e5841b4d997aa8b21f80f95",
+    "asset_size": 890538,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyannote-audio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pyarrow",
+    "name": "PyArrow",
+    "safe_id": "pyarrow",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "Parquet-and-columnar-data",
+    "url": "https://arrow.apache.org/docs/python/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pyarrow.zip",
+    "asset_sha256": "7cde0c5ffdfa860e4a401b8fb93bd534a154f012013d2741f905d90e5a0f180c",
+    "asset_size": 54649337,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyarrow.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pycolmap",
+    "name": "pycolmap",
+    "safe_id": "pycolmap",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv-or-build",
+    "role": "COLMAP-Python-API",
+    "url": "https://github.com/colmap/pycolmap",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pycolmap.zip",
+    "asset_sha256": "9824318b14b29630ad81a6dacc073422a6692a7b0c1b9c8735f0e9b30ea6951f",
+    "asset_size": 37892999,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pycolmap.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pydantic",
+    "name": "Pydantic",
+    "safe_id": "pydantic",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "Scene-IR-model-validation",
+    "url": "https://docs.pydantic.dev/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pydantic.zip",
+    "asset_sha256": "cb520d1ba33504dd182bfd1fc0b02ffe64ab76fcd8e4d88a13e7464cd5848177",
+    "asset_size": 490045,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pydantic.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pymeshlab",
+    "name": "PyMeshLab",
+    "safe_id": "pymeshlab",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "MeshLab-filter-API",
+    "url": "https://pymeshlab.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pymeshlab.zip",
+    "asset_sha256": "3061b6c224dfdee680d2903ff5e9597b18278f155d9a3eb2a747f6c50f3131ac",
+    "asset_size": 105698168,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pymeshlab.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pyright",
+    "name": "pyright",
+    "safe_id": "pyright",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "npm-or-pip",
+    "role": "Python-static-types",
+    "url": "https://github.com/microsoft/pyright",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pyright.zip",
+    "asset_sha256": "f54bb6787c3170eae72a12c3a94a683ddfda1e32096ce5ca964c77cfcbc8a142",
+    "asset_size": 4230608,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyright.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pytest",
+    "name": "pytest",
+    "safe_id": "pytest",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "Python-tests",
+    "url": "https://docs.pytest.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pytest.zip",
+    "asset_sha256": "89eaf50f2a2e9e31da3caeaaf18afa17f45c4b52ea6b8825fb7a467bc7e07a30",
+    "asset_size": 409376,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pytest.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pyvips",
+    "name": "pyvips",
+    "safe_id": "pyvips",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv-plus-libvips",
+    "role": "large-image-processing",
+    "url": "https://www.libvips.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pyvips.zip",
+    "asset_sha256": "aa3913b708143077e22c3f80cb70fddf4789f9c6fb45fd4b34ccb4c1121f83fb",
+    "asset_size": 74922,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvips.zip"
+  },
+  {
+    "kind": "package",
+    "id": "pyvista",
+    "name": "PyVista",
+    "safe_id": "pyvista",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "VTK-based-3D-inspection",
+    "url": "https://docs.pyvista.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-pyvista.zip",
+    "asset_sha256": "f4a635d5337e1c0db77916b2a2b2f6c3f312284699956669d02e7b7324cccb99",
+    "asset_size": 2718270,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-pyvista.zip"
+  },
+  {
+    "kind": "package",
+    "id": "qwen3-vl",
+    "name": "Qwen3-VL",
+    "safe_id": "qwen3-vl",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "transformers-or-vllm",
+    "role": "local-vision-language-reasoning",
+    "url": "https://huggingface.co/Qwen",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-qwen3-vl.zip",
+    "asset_sha256": "2f8da8536cc5c6e7caba76b3437a882472bc066193a5a7c35f29691e42108e7b",
+    "asset_size": 2789,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-qwen3-vl.zip"
+  },
+  {
+    "kind": "package",
+    "id": "ray",
+    "name": "Ray",
+    "safe_id": "ray",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "distributed-processing-and-inference",
+    "url": "https://docs.ray.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-ray.zip",
+    "asset_sha256": "554e6151325d75376e5def44c2ac56c99a9ce50faa2b81f52eef3a3f9633ac49",
+    "asset_size": 78585812,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ray.zip"
+  },
+  {
+    "kind": "package",
+    "id": "realesrgan",
+    "name": "Real-ESRGAN",
+    "safe_id": "realesrgan",
+    "capabilities": [
+      "restoration"
+    ],
+    "priority": "P2",
+    "install": "source-plus-checkpoint",
+    "role": "super-resolution",
+    "url": "https://github.com/xinntao/Real-ESRGAN",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-realesrgan.zip",
+    "asset_sha256": "e39115bc72041dcd541b64dd42a360c00791c9b686c0b9fa6d7ace70ea4e16cc",
+    "asset_size": 2710,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-realesrgan.zip"
+  },
+  {
+    "kind": "package",
+    "id": "remotion",
+    "name": "Remotion",
+    "safe_id": "remotion",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "React-programmatic-video",
+    "url": "https://www.remotion.dev/docs/license/pricing",
+    "license_warning": "Review current individual/company/automation license terms",
+    "caveat": null,
+    "asset": "pkg-remotion.zip",
+    "asset_sha256": "622739a12c942692ffc85df02f5134d33e5dba79412914603356a037ff6a41c7",
+    "asset_size": 452192,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-remotion.zip"
+  },
+  {
+    "kind": "package",
+    "id": "rife",
+    "name": "RIFE",
+    "safe_id": "rife",
+    "capabilities": [
+      "restoration"
+    ],
+    "priority": "P2",
+    "install": "source-plus-checkpoint",
+    "role": "frame-interpolation-visualization-only",
+    "url": "https://github.com/hzwer/ECCV2022-RIFE",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-rife.zip",
+    "asset_sha256": "8455a3ead4baf05d2174f52bfa005a01e7d2c4df04d93f06494e74e865ba3b70",
+    "asset_size": 2624,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-rife.zip"
+  },
+  {
+    "kind": "package",
+    "id": "ruff",
+    "name": "Ruff",
+    "safe_id": "ruff",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "uv-or-pipx",
+    "role": "lint-and-format",
+    "url": "https://docs.astral.sh/ruff/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-ruff.zip",
+    "asset_sha256": "71b9cf4f7eaf511d256b5c8c1f6c9e2371c007cc88af41b68464208a3c341dab",
+    "asset_size": 10605592,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ruff.zip"
+  },
+  {
+    "kind": "package",
+    "id": "sam2",
+    "name": "SAM 2",
+    "safe_id": "sam2",
+    "capabilities": [
+      "segmentation"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "video-mask-propagation",
+    "url": "https://github.com/facebookresearch/sam2",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-sam2.zip",
+    "asset_sha256": "46d83b77e89f892e9265028f42e350008ac33a80669b1211ee8409a454d3f3ec",
+    "asset_size": 2693,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam2.zip"
+  },
+  {
+    "kind": "package",
+    "id": "sam3",
+    "name": "SAM 3.1",
+    "safe_id": "sam3",
+    "capabilities": [
+      "segmentation"
+    ],
+    "priority": "P1",
+    "install": "upstream-source-plus-gated-weights",
+    "role": "promptable-image-video-segmentation-and-multi-object-tracking",
+    "url": "https://github.com/facebookresearch/sam3",
+    "license_warning": "checkpoint terms and access gating must be reviewed independently of code",
+    "caveat": null,
+    "asset": "pkg-sam3.zip",
+    "asset_sha256": "b72c28b18fb9ac20c92f3b363c722bd0bfd45ad721049569d4850cd8ff34d306",
+    "asset_size": 2897,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-sam3.zip"
+  },
+  {
+    "kind": "package",
+    "id": "scenedetect",
+    "name": "PySceneDetect",
+    "safe_id": "scenedetect",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "candidate-cut-and-transition-detection",
+    "url": "https://www.scenedetect.com/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-scenedetect.zip",
+    "asset_sha256": "75bc3a0634ab9829e74d8efbb4de2ce508f0060449464d3aa010f062b12c8ffb",
+    "asset_size": 159528,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scenedetect.zip"
+  },
+  {
+    "kind": "package",
+    "id": "scikit-image",
+    "name": "scikit-image",
+    "safe_id": "scikit-image",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "structural-and-pixel-metrics",
+    "url": "https://scikit-image.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-scikit-image.zip",
+    "asset_sha256": "7354a909a7293e2c532a9ec5ca44ed35a618651f02febc488aad03ea483d7e6b",
+    "asset_size": 13609904,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-image.zip"
+  },
+  {
+    "kind": "package",
+    "id": "scikit-learn",
+    "name": "scikit-learn",
+    "safe_id": "scikit-learn",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "clustering-and-PCA",
+    "url": "https://scikit-learn.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-scikit-learn.zip",
+    "asset_sha256": "540a9a9ca88af1d3a217a5c93038ef60961c4ba8ef6c454244f8cb5f7e4e328c",
+    "asset_size": 9010068,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scikit-learn.zip"
+  },
+  {
+    "kind": "package",
+    "id": "scipy",
+    "name": "SciPy",
+    "safe_id": "scipy",
+    "capabilities": [
+      "classical_cv"
+    ],
+    "priority": "P0",
+    "install": "uv",
+    "role": "optimization-filtering-interpolation",
+    "url": "https://scipy.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-scipy.zip",
+    "asset_sha256": "f9b19511395cd5d0f7ea84fc30cd1737fca9f1ad9c4f69dab3c31292c4706601",
+    "asset_size": 34887190,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-scipy.zip"
+  },
+  {
+    "kind": "package",
+    "id": "shapely",
+    "name": "Shapely",
+    "safe_id": "shapely",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "planar-vector-geometry",
+    "url": "https://shapely.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-shapely.zip",
+    "asset_sha256": "ad7cdfb7fe8aab67083ad911fbc6d95b096a267cfa67742a83721e95a48b6a12",
+    "asset_size": 2265571,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-shapely.zip"
+  },
+  {
+    "kind": "package",
+    "id": "skia-python",
+    "name": "skia-python",
+    "safe_id": "skia-python",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "uv-plus-fontconfig-OpenGL",
+    "role": "2D-raster-vector-rendering",
+    "url": "https://github.com/skia-python/skia-python",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-skia-python.zip",
+    "asset_sha256": "7ecd38465b76aba285384de03751b5f9a547bc69e7be7a9a1059e314285d5fbe",
+    "asset_size": 14670598,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-skia-python.zip"
+  },
+  {
+    "kind": "package",
+    "id": "syft",
+    "name": "Syft",
+    "safe_id": "syft",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "binary",
+    "role": "SBOM-generation",
+    "url": "https://github.com/anchore/syft",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-syft.zip",
+    "asset_sha256": "bca23266daf05325caf18e2811adba33acd468c52df04b14cce285fafae1a57f",
+    "asset_size": 2517,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-syft.zip"
+  },
+  {
+    "kind": "package",
+    "id": "synfig",
+    "name": "Synfig",
+    "safe_id": "synfig",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "official-build-or-apt",
+    "role": "vector-bitmap-tween-animation",
+    "url": "https://www.synfig.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-synfig.zip",
+    "asset_sha256": "455aa6f2e544729e34433e43aad7a4a91a4130fd86de6c2af89f9daf7bcc5f05",
+    "asset_size": 2594,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-synfig.zip"
+  },
+  {
+    "kind": "package",
+    "id": "tahoma2d",
+    "name": "Tahoma2D",
+    "safe_id": "tahoma2d",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "official-portable-Linux",
+    "role": "2D-cutout-and-stop-motion",
+    "url": "https://tahoma2d.org/download.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-tahoma2d.zip",
+    "asset_sha256": "4ce55cbcd890bc30cb81604800d5f370efb62cf8acca022b2045cbc56116a1f8",
+    "asset_size": 2663,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tahoma2d.zip"
+  },
+  {
+    "kind": "package",
+    "id": "tapnet",
+    "name": "TAPIR/TAPNet",
+    "safe_id": "tapnet",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "upstream-source",
+    "role": "long-range-point-tracking",
+    "url": "https://github.com/google-deepmind/tapnet",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-tapnet.zip",
+    "asset_sha256": "8ad867470ec2c04ed6b1e9c50006710611997f89f4c1357f64e35133318cd4f4",
+    "asset_size": 2656,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-tapnet.zip"
+  },
+  {
+    "kind": "package",
+    "id": "three",
+    "name": "Three.js",
+    "safe_id": "three",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "browser-3D-WebGL",
+    "url": "https://threejs.org/docs/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-three.zip",
+    "asset_sha256": "b54fbb37e2e044559edba67610e1efefb5a04ac0f3e03732f374f8a1bd7b5eac",
+    "asset_size": 4797528,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-three.zip"
+  },
+  {
+    "kind": "package",
+    "id": "torchaudio",
+    "name": "torchaudio",
+    "safe_id": "torchaudio",
+    "capabilities": [
+      "audio"
+    ],
+    "priority": "P2",
+    "install": "torch-matched-wheel",
+    "role": "PyTorch-audio-pipelines",
+    "url": "https://pytorch.org/audio/stable/index.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-torchaudio.zip",
+    "asset_sha256": "3dea0d42cf323e191cfd90b0fd222d1241e5eea5fb818fca5447cd21a76c23b8",
+    "asset_size": 1779404,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchaudio.zip"
+  },
+  {
+    "kind": "package",
+    "id": "torchvision-raft",
+    "name": "RAFT",
+    "safe_id": "torchvision-raft",
+    "capabilities": [
+      "tracking_and_flow"
+    ],
+    "priority": "P1",
+    "install": "torchvision",
+    "role": "learned-dense-optical-flow",
+    "url": "https://docs.pytorch.org/vision/stable/models/raft.html",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-torchvision-raft.zip",
+    "asset_sha256": "ad213ffea0d19337882666dd5edfd338d4baf86ee34ae9cdda0218b5b3330a2b",
+    "asset_size": 2996,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-torchvision-raft.zip"
+  },
+  {
+    "kind": "package",
+    "id": "trimesh",
+    "name": "trimesh",
+    "safe_id": "trimesh",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "Python-mesh-scene-tools",
+    "url": "https://trimesh.org/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-trimesh.zip",
+    "asset_sha256": "904a09ad1eeeb8eea72399547e043022cf6ce43ed2e8933f63019127b2dfbc22",
+    "asset_size": 747132,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trimesh.zip"
+  },
+  {
+    "kind": "package",
+    "id": "trivy",
+    "name": "Trivy",
+    "safe_id": "trivy",
+    "capabilities": [
+      "quality_and_security"
+    ],
+    "priority": "P0",
+    "install": "official-package",
+    "role": "container-filesystem-vulnerability-scan",
+    "url": "https://trivy.dev/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-trivy.zip",
+    "asset_sha256": "be00ff5ca4f65dfb5a6fcccf9ec94c1539888528359077d5bc71aacd141d5696",
+    "asset_size": 2530,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-trivy.zip"
+  },
+  {
+    "kind": "package",
+    "id": "uharfbuzz",
+    "name": "HarfBuzz Python binding",
+    "safe_id": "uharfbuzz",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "uv-plus-system-HarfBuzz",
+    "role": "complex-text-shaping",
+    "url": "https://harfbuzz.github.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-uharfbuzz.zip",
+    "asset_sha256": "9b81c7c7a5ef739a08ae86dd6c25c62c5485314ca68c2fd03f555b434768231a",
+    "asset_size": 2136753,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-uharfbuzz.zip"
+  },
+  {
+    "kind": "package",
+    "id": "ultralytics",
+    "name": "Ultralytics YOLO",
+    "safe_id": "ultralytics",
+    "capabilities": [
+      "detection_and_vlm"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "detection-segmentation-pose",
+    "url": "https://www.ultralytics.com/license",
+    "license_warning": "AGPL-3.0 default code/model terms; assess enterprise license for proprietary/commercial deployment",
+    "caveat": null,
+    "asset": "pkg-ultralytics.zip",
+    "asset_sha256": "2680275f181f26c18033770bfc6b775a97548675d61daf881a25c9d90fc712e9",
+    "asset_size": 1439541,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-ultralytics.zip"
+  },
+  {
+    "kind": "package",
+    "id": "vapoursynth",
+    "name": "VapourSynth",
+    "safe_id": "vapoursynth",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "uv-or-native-build",
+    "role": "programmable-frame-server",
+    "url": "https://www.vapoursynth.com/doc/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-vapoursynth.zip",
+    "asset_sha256": "0c91ea83b13a9d7d048431475ba23ef9b7b218658bb8d323cf5290adaebd98c2",
+    "asset_size": 6371441,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vapoursynth.zip"
+  },
+  {
+    "kind": "package",
+    "id": "video-depth-anything",
+    "name": "Video Depth Anything",
+    "safe_id": "video-depth-anything",
+    "capabilities": [
+      "depth_and_3d_reconstruction"
+    ],
+    "priority": "P1",
+    "install": "upstream-source-plus-weights",
+    "role": "temporally-consistent-video-depth",
+    "url": "https://github.com/DepthAnything/Video-Depth-Anything",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-video-depth-anything.zip",
+    "asset_sha256": "292e0f667b8c2d4e31eb8678e6a453f92c8cfac9313829e2c3ce44202336aaab",
+    "asset_size": 2976,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-video-depth-anything.zip"
+  },
+  {
+    "kind": "package",
+    "id": "vite",
+    "name": "Vite",
+    "safe_id": "vite",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "dev-server-and-bundler",
+    "url": "https://vite.dev/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-vite.zip",
+    "asset_sha256": "4b7676b5405c5514e895f68434f3eb8e51a80cdc42c91c9cf095a632d2e91f1b",
+    "asset_size": 595327,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite.zip"
+  },
+  {
+    "kind": "package",
+    "id": "vite-plugin-singlefile",
+    "name": "vite-plugin-singlefile",
+    "safe_id": "vite-plugin-singlefile",
+    "capabilities": [
+      "browser_rendering"
+    ],
+    "priority": "P0",
+    "install": "npm",
+    "role": "inlined-single-HTML-build-helper",
+    "url": "https://www.npmjs.com/package/vite-plugin-singlefile",
+    "license_warning": null,
+    "caveat": "Not all public/static assets are automatically inlined; audit output",
+    "asset": "pkg-vite-plugin-singlefile.zip",
+    "asset_sha256": "fc301a26bf9502e970a43c309f53c4b8cbc9e0a00148b3324611bd54c33b7fc8",
+    "asset_size": 12074,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vite-plugin-singlefile.zip"
+  },
+  {
+    "kind": "package",
+    "id": "vtracer",
+    "name": "VTracer",
+    "safe_id": "vtracer",
+    "capabilities": [
+      "2d_and_typography"
+    ],
+    "priority": "P1",
+    "install": "binary-or-source",
+    "role": "raster-to-vector-for-flat-graphics",
+    "url": "https://github.com/visioncortex/vtracer",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-vtracer.zip",
+    "asset_sha256": "d0dc36b7e67657e1c22f20c24268c1ce4f658829c29f5cbb6672bb02c7dc6dc7",
+    "asset_size": 2644,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-vtracer.zip"
+  },
+  {
+    "kind": "package",
+    "id": "zarr",
+    "name": "Zarr",
+    "safe_id": "zarr",
+    "capabilities": [
+      "data_and_orchestration"
+    ],
+    "priority": "P1",
+    "install": "uv",
+    "role": "chunked-array-cache",
+    "url": "https://zarr.readthedocs.io/",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-zarr.zip",
+    "asset_sha256": "ce94c0838f764089a8f625240643ebce77c2f191bbdc936d6fed827a280b173d",
+    "asset_size": 406756,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zarr.zip"
+  },
+  {
+    "kind": "package",
+    "id": "zimg",
+    "name": "zimg",
+    "safe_id": "zimg",
+    "capabilities": [
+      "media_ingest"
+    ],
+    "priority": "P0",
+    "install": "apt-or-source",
+    "role": "colour-and-pixel-format-conversion",
+    "url": "https://github.com/sekrit-twc/zimg",
+    "license_warning": null,
+    "caveat": null,
+    "asset": "pkg-zimg.zip",
+    "asset_sha256": "dae1c1619095e45e4e70f0dd53fb83e48e2650d2990adeb521818bab2b481f2e",
+    "asset_size": 2551,
+    "download_url": "https://github.com/adittaya/linux-creative-studio/releases/download/reverse-engineering-offline-packages/pkg-zimg.zip"
+  }
+]

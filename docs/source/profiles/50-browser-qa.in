@@ -1,0 +1,11 @@
+# Python browser automation and test environment.
+playwright
+pytest
+pytest-playwright
+hypothesis
+pytest-cov
+pytest-xdist
+ruff
+mypy
+# Then install the matching browser binary and OS dependencies:
+# uv run playwright install --with-deps chromium

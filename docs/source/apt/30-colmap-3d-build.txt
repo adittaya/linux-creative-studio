@@ -1,0 +1,26 @@
+# Optional native COLMAP / photogrammetry dependencies.
+# Use current upstream COLMAP installation instructions for Qt and CUDA/HIP specifics.
+git
+cmake
+ninja-build
+build-essential
+libboost-program-options-dev
+libboost-graph-dev
+libboost-system-dev
+libeigen3-dev
+libopenimageio-dev
+openimageio-tools
+libmetis-dev
+libgoogle-glog-dev
+libgtest-dev
+libgmock-dev
+libsqlite3-dev
+libglew-dev
+qt6-base-dev
+libqt6opengl6-dev
+qt6-svg-dev
+libcgal-dev
+libceres-dev
+libsuitesparse-dev
+libcurl4-openssl-dev
+libssl-dev
